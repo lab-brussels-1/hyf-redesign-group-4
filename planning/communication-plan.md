@@ -35,17 +35,17 @@
 | ----------- | :------------------------: | :---------------------: | :----------------------: | :----------------------: | :---------------------: | :---------: | :---------: |
 | _Minju_     |  10am - 1pm, 10pm - 01am   | 9am - 12pm, 11pm - 01am |  9am - 12pm, 9pm - 11pm  | 9am - 4pm, 9pm - 11pm    | 9am - 4pm, 9pm - 11pm   | 11am - 1pm  | 9pm - 12am  |
 | Kiishi      |         6pm -10pm          |       7pm - 10pm        |       6pm - 10pm         |       7pm - 10pm         |       6pm - 10pm        | 9am - 5pm   | 6pm - 10pm  |
-| _Haneefa_   |   10am - 3pm, 4pm - 9pm    |  10am - 3pm, 4pm - 9pm  | 9am - 12pm, 2pm - 9pm    |  10am - 3pm, 4pm - 9pm   |  10am - 3pm, 4pm - 9pm  |  4pm - 8pm  |  6pm - 9pm  |
+| _Haneefa_   |  10am - 3pm, 4pm - 9pm     |  10am - 3pm, 4pm - 9pm  | 9am - 12pm, 2pm - 9pm    |  10am - 3pm, 4pm - 9pm   | 10am - 3pm, 4pm - 9pm   | 4pm - 8pm    | 6pm - 9pm  |
 | _addname_   |        9am - 1pm           |        9am - 1pm        |       9am - 1am          |        10am - 1am        |       12am -4pm         | 9am - 1pm   |             |
 
 ## Availability Week2
 
-| Day         |         Monday           |        Tuesday         |       Wednesday         |        Thursday         |         Friday         |   Saturday    |    Sunday    |
-| ----------- | :----------------------: | :--------------------: | :---------------------: | :---------------------: | :--------------------: | :-----------: | :----------: |
-| _Minju_     |      8pm - 12am          |       8pm - 12am       |       8pm - 12am        |  10am-12pm, 8pm-12am    |  10am-12pm, 8pm-12am   |  8pm - 12am   |              |
-| Kiishi      |        5pm -10pm         |       9am - 5pm        |       9am - 5pm         |       9am - 5pm         |       4pm - 9pm        |  9am - 5pm    |  6pm - 10pm  |
-| _Haneefa_   | 01pm - 3pm, 10pm - 01am  | 10am - 3pm, 4pm - 9pm  |   9am - 12pm, 2pm - 9pm |  10am - 3pm, 4pm - 9p   | 10am - 3pm, 4pm - 9pm  |   4pm - 8pm   |  6pm - 9pm   |
-| _addname_   |    1pm - 5pm             |     12am - 5pm         |   9am - 12am            |      9am - 12am         |        1pm - 4pm       |    12am - 3pm |   12am - 4pm |
+| Day         |         Monday           |        Tuesday         |       Wednesday          |        Thursday         |         Friday         |   Saturday    |    Sunday    |
+| ----------- | :----------------------: | :--------------------: | :----------------------: | :---------------------: | :--------------------: | :-----------: | :----------: |
+| _Minju_     |      8pm - 12am          |       8pm - 12am       |        8pm - 12am        |  10am-12pm, 8pm-12am    |  10am-12pm, 8pm-12am   |  8pm - 12am   |              |
+| Kiishi      |        5pm -10pm         |       9am - 5pm        |       9am - 5pm          |       9am - 5pm         |       4pm - 9pm        |  9am - 5pm    |  6pm - 10pm  |
+| _Haneefa_ | 01pm - 3pm, 10pm - 01am    | 10am - 3pm, 4pm - 9pm  |   9am - 12pm, 2pm - 9pm  | 10am - 3pm, 4pm - 9p    | 10am - 3pm, 4pm - 9pm  |  4pm - 8pm   | 01pm - 12am  |
+| _addname_   |    1pm - 5pm             |     12am - 5pm         |   9am - 12am             |      9am - 12am         |        1pm - 4pm       |    12am - 3pm |   12am - 4pm |
 
 ### How many hours everyone has per day
 
