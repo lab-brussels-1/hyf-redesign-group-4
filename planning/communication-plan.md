@@ -44,7 +44,7 @@
 | ----------- | :----------------------: | :--------------------: | :---------------------: | :---------------------: | :--------------------: | :-----------: | :----------: |
 | _Minju_     |      8pm - 12am          |       8pm - 12am       |       8pm - 12am        |  10am-12pm, 8pm-12am    |  10am-12pm, 8pm-12am   |  8pm - 12am   |              |
 | Kiishi      |        5pm -10pm         |       9am - 5pm        |       9am - 5pm         |       9am - 5pm         |       4pm - 9pm        |  9am - 5pm    |  6pm - 10pm  |
-| _Haneefa_   | 01pm - 3pm, 10pm - 01am  | 10am - 3pm, 4pm - 9pm  |   9am - 12pm, 2pm - 9pm |  10am - 3pm, 4pm - 9p   | 10am - 3pm, 4pm - 9pm  |   4pm - 8pm   |  6pm - 9pm   |
+| _Haneefa_   | 01pm - 3pm, 10pm - 01am  | 10am - 3pm, 4pm - 9pm  |   9am - 12pm, 2pm - 9pm |  10am - 3pm, 4pm - 9p   | 10am - 3pm, 4pm - 9pm  |   4pm - 8pm   | 01pm - 12am  |
 | _addname_   |    1pm - 5pm             |     12am - 5pm         |   9am - 12am            |      9am - 12am         |        1pm - 4pm       |    12am - 3pm |   12am - 4pm |
 
 ### How many hours everyone has per day
