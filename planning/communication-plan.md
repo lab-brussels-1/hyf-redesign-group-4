@@ -38,6 +38,7 @@
 | _Alexander_ |         10am - 4pm         |       11am - 6pm        |       9am - 4pm          |       10am - 10pm        |                         | 10am - 12pm |            |
 | _Haneefa_   |   10am - 3pm, 4pm - 9pm    |  10am - 3pm, 4pm - 9pm  | 9am - 12pm, 2pm - 9pm    |  10am - 3pm, 4pm - 9pm   |  10am - 3pm, 4pm - 9pm  |  4pm - 8pm  | 6pm - 9pm  |
 
+
 ## Availability Week2
 
 | Day         |         Monday           |        Tuesday         |       Wednesday         |        Thursday         |         Friday         |   Saturday    |    Sunday    |
