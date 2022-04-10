@@ -35,7 +35,7 @@
 | ----------- | :------------------------: | :---------------------: | :----------------------: | :----------------------: | :---------------------: | :---------: | :---------: |
 | _Minju_     |  10am - 1pm, 10pm - 01am   | 9am - 12pm, 11pm - 01am |  9am - 12pm, 9pm - 11pm  | 9am - 4pm, 9pm - 11pm    | 9am - 4pm, 9pm - 11pm   | 11am - 1pm  | 9pm - 12am  |
 | Kiishi      |         6pm -10pm          |       7pm - 10pm        |       6pm - 10pm         |       7pm - 10pm         |       6pm - 10pm        | 9am - 5pm   | 6pm - 10pm  |
-| _addname_   |  10am - 4pm, 10pm - 12pm   |  9am - 6pm, 9pm - 11pm  |       9am - 5pm          |  9am - 4pm, 10pm - 12pm  | 9am - 4pm, 10pm - 12pm  | 11am - 7pm  | 9pm - 12am  |
+| _Alexander_ |         10am - 4pm         |       11am - 6pm        |       9am - 4pm          |       10am - 10pm        |                         | 10am - 12pm |             |
 | _addname_   |        9am - 1pm           |        9am - 1pm        |       9am - 1am          |        10am - 1am        |       12am -4pm         | 9am - 1pm   |             |
 
 ## Availability Week2
