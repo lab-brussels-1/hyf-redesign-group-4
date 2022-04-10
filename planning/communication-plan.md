@@ -31,21 +31,21 @@
 
 ## Availability Week1
 
-| Day         |         Monday           |        Tuesday         |       Wednesday         |        Thursday         |         Friday          |  Saturday   |   Sunday    |
-| ----------- | :----------------------: | :--------------------: | :---------------------: | :---------------------: | :---------------------: | :---------: | :---------: |
-| _Minju_     |  10am - 1pm, 10pm - 01am   | 9am - 12pm, 11pm - 01am  | 9am - 12pm, 9pm - 11pm  | 9am - 4pm, 9pm - 11pm   | 9am - 4pm, 9pm - 11pm   | 11am - 1pm  | 9pm - 12am  |
-| _addname_     |        1pm - 5pm         |       9pm - 1pm        |       1pm - 6pm         |       1pm - 6pm         |       12pm - 4pm        | 9pm - 1pm   | 12pm - 6pm  |
-| _addname_ | 10am - 4pm, 10pm - 12pm  | 9am - 6pm, 9pm - 11pm  |       9am - 5pm         | 9am - 4pm, 10pm - 12pm  | 9am - 4pm, 10pm - 12pm  | 11am - 7pm  | 9pm - 12am  |
-| _addname_   |       9am - 1pm          |       9am - 1pm        |       9am - 1am         |       10am - 1am        |       12am -4pm         | 9am - 1pm   |             |
+| Day           |          Monday            |        Tuesday          |       Wednesday         |        Thursday         |         Friday          |  Saturday   |   Sunday    |
+| ------------- | :------------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------: | :---------: |
+| _Minju_       |  10am - 1pm, 10pm - 01am   | 9am - 12pm, 11pm - 01am | 9am - 12pm, 9pm - 11pm  | 9am - 4pm, 9pm - 11pm   | 9am - 4pm, 9pm - 11pm   | 11am - 1pm  | 9pm - 12am  |
+| _addname_     |         1pm - 5pm          |        9pm - 1pm        |       1pm - 6pm         |       1pm - 6pm         |       12pm - 4pm        | 9pm - 1pm   | 12pm - 6pm  |
+| _addname_     |  10am - 4pm, 10pm - 12pm   |  9am - 6pm, 9pm - 11pm  |       9am - 5pm         | 9am - 4pm, 10pm - 12pm  | 9am - 4pm, 10pm - 12pm  | 11am - 7pm  | 9pm - 12am  |
+| _addname_     |        9am - 1pm           |        9am - 1pm        |       9am - 1am         |       10am - 1am        |       12am -4pm         | 9am - 1pm   |             |
 
 ## Availability Week2
 
-| Day         |         Monday           |        Tuesday          |       Wednesday          |        Thursday         |         Friday         |   Saturday    |    Sunday    |
-| ----------- | :----------------------: | :---------------------: | :----------------------: | :---------------------: | :--------------------: | :-----------: | :----------: |
-| _Minju_     |      8pm - 12am          |       8pm - 12am        |        8pm - 12am        |  10am-12pm, 8pm-12am    |  10am-12pm, 8pm-12am   |  8pm - 12am   |              |
+| Day            |         Monday           |        Tuesday          |       Wednesday          |        Thursday         |         Friday         |   Saturday    |    Sunday    |
+| -------------- | :----------------------: | :---------------------: | :----------------------: | :---------------------: | :--------------------: | :-----------: | :----------: |
+| _Minju_        |      8pm - 12am          |       8pm - 12am        |        8pm - 12am        |  10am-12pm, 8pm-12am    |  10am-12pm, 8pm-12am   |  8pm - 12am   |              |
 | _add name_     |  10am - 1pm, 10pm-12pm   |  10am - 2pm,10pm-12pm   |   10am - 1pm,10pm-12pm   |      10am - 4pm         |     10am - 4pm         |      -        |  12pm - 6pm  |
-| _addname_ | 01pm - 3pm, 10pm - 01am  | 01pm - 6pm, 9pm - 11pm  |       01pm - 5pm         |       01pm - 4pm        |       01Pm - 4pm       |  01pm - 02pm  | 01pm - 12am  |
-| _addname_   |    1pm - 5pm             |      12am - 5pm         |   9am - 12am             |      9am - 12am         |        1pm - 4pm       |    12am - 3pm |   12am - 4pm |
+| _addname_      | 01pm - 3pm, 10pm - 01am  | 01pm - 6pm, 9pm - 11pm  |       01pm - 5pm         |       01pm - 4pm        |       01Pm - 4pm       |  01pm - 02pm  | 01pm - 12am  |
+| _addname_      |    1pm - 5pm             |      12am - 5pm         |   9am - 12am             |      9am - 12am         |        1pm - 4pm       |    12am - 3pm |   12am - 4pm |
 
 ### How many hours everyone has per day
 
