@@ -50,7 +50,7 @@
 ### How many hours everyone has per day
 
 - addname: _4h_;
-- Minju: _5h_;
+- Minju: _4h_;
 - addname: _6h_;
 - addname: _4h_;
 
