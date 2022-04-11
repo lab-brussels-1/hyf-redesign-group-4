@@ -31,7 +31,6 @@
 
 ## Availability Week1
 
-
 | Day          |          Monday            |        Tuesday          |        Wednesday          |        Thursday          |         Friday          |  Saturday   |             Sunday              |
 | ------------ | :------------------------: | :---------------------: | :-----------------------: | :----------------------: | :---------------------: | :---------: | :-----------------------------: |
 | _Minju_      |  10am - 1pm, 10pm - 01am   | 9am - 12pm, 11pm - 01am |  9am - 12pm, 9pm - 11pm   | 9am - 4pm, 9pm - 11pm    | 9am - 4pm, 9pm - 11pm   | 11am - 1pm  |           9pm - 12am            |
@@ -39,7 +38,7 @@
 | _Haneefa_    |   10am - 3pm, 4pm - 9pm    |  10am - 3pm, 4pm - 9pm  |  9am - 12pm, 2pm - 9pm    |  10am - 3pm, 4pm - 9pm   |  10am - 3pm, 4pm - 9pm  |  4pm - 8pm  |            6pm - 9pm            |
 | _Dnyandeo_   |        12pm - 9pm          |       12pm - 4pm        |       12pm - 9pm          |       12pm - 9pm         |       12am -4pm         |     -       |  after class till 9pm           |
 | _Elias_      |         9am - 5pm          |       9am - 5pm         |      9am-5pm              |       --------           |        9am - 4pm        |   9am-2pm   |      after class until 8pm      |
-| _Alexander_  |         10am - 4pm         |       11am - 6pm        |       9am - 4pm           |       10am - 10pm        |                         | 10am - 12pm |            |
+| _Alexander_  |         10am - 4pm         |       11am - 6pm        |        9am - 4pm          |       10am - 10pm        |                         | 10am - 12pm |                                 |
 
 ## Availability Week2
 
