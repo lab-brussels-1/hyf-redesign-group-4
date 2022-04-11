@@ -69,3 +69,37 @@
 - As he wants to organize workshops, give individual coaching and to offer free
   educational programs for non-profit organization, he is looking to fulfill all
   these in one platform.
+
+<!-- The third user persona targets the sponsors-->
+
+## User-Persona-sponsor
+
+### Bio-sponsor
+
+- Sally works in a tech company and is looking for platforms that teach front
+  end web development to partner with.
+
+### Needs/Goals-sponsor
+
+- She needs to find interns and new employees for her company
+- She needs to be able to find clear information about how to contact the
+  organizers/coaches
+- She would like to be able to advertise her company through the
+  program/website.
+- She would like to create job opportunities for refugees
+- She would like to be able to see information about alumni of the program on
+  the website
+
+### Frustration-sponsor
+
+- She is finding it difficult to find non-profit programs that are completely
+  free for the students
+- She is finding it hard to get in contact with the organizers/coaches of
+  various programs
+
+### Scenario-sponsor
+
+- She is looking for employees that she can guarantee are capable of working in
+  her company.
+
+  ***
