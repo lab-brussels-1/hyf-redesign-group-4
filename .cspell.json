@@ -7,7 +7,8 @@
     "Dnyandeo",
     "addname",
     "socio",
-    "Todos"
+    "Todos",
+    "bootcamps"
   ],
   "ignorePaths": [
     "node_modules/**",

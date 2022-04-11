@@ -36,3 +36,36 @@
 - He is new in the country and he wants to make a course about web development
   to get a job, in order to do it he has to search an organization that offers
   this kind of service, there is where he find Hack Your Future
+
+  ***
+
+## 2.Coach
+
+<!-- This user persona refers to a coach -->
+
+### Bio
+
+- Mr John is a full stack developer with 15 years of experience.
+- He wants to be a coach for supporting, coaching and motivating the students.
+
+### Needs/Goals
+
+- Mr John is looking for a better platform for continuous individual coaching
+  alongside the training to allow efficient matchmaking.
+- He wants to help the students who are facing challenges during the week and
+  want to spent supporting the students in the class during weekends.
+- Helping the students with the organization's existing study material what
+  exactly Hack Your Future is doing.
+
+### Frustrations
+
+- As there are many expensive bootcamps, he wants to serve only for the
+  bootcamps which are absolutely free for the students.
+- He wants to start more practical training course to become a specialized
+  educator.
+
+### Scenario
+
+- As he wants to organize workshops, give individual coaching and to offer free
+  educational programs for non-profit organization, he is looking to fulfill all
+  these in one platform.
