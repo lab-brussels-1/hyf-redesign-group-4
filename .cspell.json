@@ -1,6 +1,14 @@
 {
   "language": "en",
-  "words": [],
+  "words": [
+    "minju",
+    "kiishi",
+    "Haneefa",
+    "Dnyandeo",
+    "addname",
+    "socio",
+    "Todos"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
