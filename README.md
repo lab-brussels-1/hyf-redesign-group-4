@@ -1,78 +1,88 @@
-# Name of project
+# Recreating Hack Your Future Website
 
-> A longer description
+> A website for students helping to learn coding and the volunteers to
+> contribute their knowledge by helping the students.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Recreating Hack Your Future Website](#recreating-hack-your-future-website)
   - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
-  - [Instructions for use](#instructions-for-use)
+  - [✅ General info](#-general-info)
+  - [✅ Screenshots](#-screenshots)
+  - [✅ Technologies](#-technologies)
+  - [✅ Code Examples](#-code-examples)
+  - [✅ Features](#-features)
+  - [✅ Status](#-status)
+  - [✅ Inspiration](#-inspiration)
+  - [✅ Collaborators](#-collaborators)
+  - [✅ Coaches](#-coaches)
+  - [✅ Instructions for use](#-instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Repo Setup](#repo-setup)
 
-## General info
+## ✅ General info
 
-> A short description
+> This project's main goal is planning and collaborating as a team for the
+> reconstruction of the Hack Your Future website. We are aiming to learn how to
+> recreate the website with our own code and to create a responsive website.
 
-## Screenshots
+## ✅ Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Hack Your Future](./planning/assets/Screenshot2.png)
 
-## Technologies
+## ✅ Technologies
 
-- Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
+- HTML 5
+- CSS 3
+- VS Code
 
-## Setup
+## ✅ Code Examples
 
-- `npm run start`
+```<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project!</title>
 
-## Code Examples
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
+  <body></body>
+</html>
 
-```js
-// the hello world program
-console.log("Hello World");
 ```
 
-## Features
+## ✅ Features
 
-List of features ready and Todos for future development
+- Responsive Website
+- CSS Grid
+- Flexbox
 
--
--
--
-
-To-do list:
-
--
--
-
-## Status
+## ✅ Status
 
 Project is: _in progress_
 
-## Inspiration
+## ✅ Inspiration
 
-Project by freeCodeCamp.org
+Project by hackyourfuture.be
 
-## Contact
+## ✅ Collaborators
 
-By [Name]
+- [Dnyandeo33](https://github.com/Dnyandeo33)
+- [Haneefa-Shaik](https://github.com/Haneefa-Shaik)
+- [minjupgeorge](https://github.com/minjupgeorge)
+- [kiishiakande](https://github.com/kiishiakande)
+- [EliasMlopez99](https://github.com/EliasMlopez99)
+- [alexanderism55](https://github.com/alexanderism55)
 
-## Instructions for use
+## ✅ Coaches
+
+- [bermarte](https://github.com/bermarte)
+- [Tamer A.](https://github.com/talmurshidi)
+
+## ✅ Instructions for use
 
 <details>
   <summary>Getting Started</summary>
