@@ -78,14 +78,16 @@
 
 - Sally works in a tech company and is looking for platforms that teach front
   end web development to partner with.
+- She is looking for a program to donate to that she could get advertisement
+  from
 
 ### Needs/Goals-sponsor
 
+- She would like to be able to advertise her company through the
+  program/website.
 - She needs to find interns and new employees for her company
 - She needs to be able to find clear information about how to contact the
   organizers/coaches
-- She would like to be able to advertise her company through the
-  program/website.
 - She would like to create job opportunities for refugees
 - She would like to be able to see information about alumni of the program on
   the website
@@ -99,7 +101,6 @@
 
 ### Scenario-sponsor
 
-- She is looking for employees that she can guarantee are capable of working in
-  her company.
-
+- She is looking for a program to donate to and in return get advertisement on
+  their website
   ***
