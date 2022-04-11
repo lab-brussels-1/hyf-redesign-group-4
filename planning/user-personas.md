@@ -2,14 +2,14 @@
 
 <!-- The first user persona targets potential students-->
 
-## User-Persona 1
+## User-Persona-student
 
-### Bio-1
+### Bio-student
 
 - Teddy is a 24 year old refugee, he wants to get in to tech through
   web-development.
 
-### Needs/Goals-1
+### Needs/Goals-student
 
 <!-- Basically he needs  to be able to find the website through keywords and get enough information for him to apply or be able to contact the alumni and ask for information-->
 
@@ -19,12 +19,20 @@
   2. who is eligible to to apply on this course
   3. how to find more information
 - He needs to find the the address of the headquarters
+- He would like to know more about the study plans that Hack your future offer
+  to it's students
+- He needs to know
 
 ### Frustration
 
 - He has never coded in his life so he is anxious/doubtful about his ability to
   learn how to code.
+- He does not know where can he start or what exactly Hack Your Future, offer to
+  it's students
+- He does not know the requirements to apply for Hack Your Future
 
 ### scenario
 
-- He is new in the country and really wants to change his life
+- He is new in the country and he wants to make a course about web development
+  to get a job, in order to do it he has to search an organization that offers
+  this kind of service, there is where he find Hack Your Future
