@@ -1,5 +1,40 @@
 # Backlog
 
+## Must Haves
+
+<!----Introduction to the course and what HYF offers--->
+
+As a student I can check clearly information about the course in general
+
+<!---Nav bar in the home page of HYF-->
+
+- There is a nav bar that lets me check other information related to the course
+<!--a list of requirements displayed, and apply now submit box-->
+
+- I can easily check the requirements to apply for the course and information
+  related to the course and "apply now" submit box.
+  <!--information related to the course displayed in the program section--->
+- I can look over the study plans that Hack Your Future offers by navigating in
+  the home page and checking information related to sessions or other activities
+  such as a "final project"
+- I can also look "a discover more" box
+
+As a coach candidate I can
+
+<!---introduction in the home page--->
+
+- Check relevant information about what Hack Your Future is, what are it’s
+vision and goals with students
+<!---Nav bar in the home page of HYF-->
+- There is a nav bar that lets me check other information related to the course
+<!--information displayed  in the program section-->
+- Look over the languages supported and what are the platforms used as an image
+- I can easily check the requirements to be a coach in Hack Your Future,
+  displayed as a list in the program section of hack your future web page; also
+  there's a submit box called "become a coach"
+- Examine study plans in order to know the methodology of Hack Your Future
+  through the "discover the full curriculum" submit box
+
 ## Should Haves
 
 > will complete the user experience, but are not necessary
