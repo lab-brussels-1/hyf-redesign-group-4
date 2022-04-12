@@ -30,15 +30,18 @@
 
 - As a user I could have a view of who the alumni/ are.
 - [ ] There is a page about the alumni named **about us**.
+
 <!-- Map that shows the location of the headquarter-->
-- As a user I could have a map on the website to show me where the
+
+- As a student I could have a map on the website to show me where the
 - [ ] There is a map on the main page that shows the location of hyf.
+
 <!-- Digitalents -->
 
-- As a user I would be nice to have digitalents involved with organization.
+- As a sponsor I would be nice to have digitalents involved with organization.
 - [ ] There is a page with information about digitalents
 
 <!-- FAQ -->
 
-- As a user, it would make it easy for me to find frequently asked
+- As a student, it would make it easy for me to find frequently asked
 - [ ] There is a page devoted to FAQ
