@@ -1,5 +1,21 @@
 # Backlog
 
+## Must Haves
+
+As a student I can check clearly information about the course in general
+
+- I can easily check the requirements to apply for the course and information
+  related to the course
+- I can look over the study plans that Hack Your Future offers
+
+As a coach candidate I can
+
+- Check relevant information about what Hack Your Future is, what are it’s
+  vision and goals with students
+- Look over the languages supported and what are the platforms used
+- I can easily check the requirements to be a coach in Hack Your Future
+- Examine study plans in order to know the methodology of Hack Your Future
+
 ## Should Haves
 
 > will complete the user experience, but are not necessary
