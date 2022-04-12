@@ -36,6 +36,7 @@
 - HTML 5
 - CSS 3
 - VS Code
+- Bootstrap 5
 
 ## ✅ Code Examples
 
@@ -66,7 +67,7 @@ Project is: _in progress_
 
 ## ✅ Inspiration
 
-Project by hackyourfuture.be
+Project by [hackyourfuture.be](https://hackyourfuture.be/)
 
 ## ✅ Collaborators
 
