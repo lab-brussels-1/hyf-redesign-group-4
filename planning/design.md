@@ -2,4 +2,4 @@
 
 ## Home page
 
-![Home page](./planning/assets/Home-page.png)
+![Home page](/planning/assets/Home-page.png)
