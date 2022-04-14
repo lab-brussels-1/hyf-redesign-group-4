@@ -70,18 +70,18 @@
   educational programs for non-profit organization, he is looking to fulfill all
   these in one platform.
 
-<!-- The third user persona targets the sponsors-->
+<!-- The third user persona targets the partners-->
 
-## User-Persona-sponsor
+## User-Persona-Partner
 
-### Bio-sponsor
+### Bio-partner
 
 - Sally works in a tech company and is looking for platforms that teach front
   end web development to partner with.
-- She is looking for a program to donate to that she could get advertisement
+- She is looking for a program to partner with that she could get advertisement
   from
 
-### Needs/Goals-sponsor
+### Needs/Goals-partner
 
 - She would like to be able to advertise her company through the
   program/website.
@@ -92,15 +92,43 @@
 - She would like to be able to see information about alumni of the program on
   the website
 
-### Frustration-sponsor
+### Frustration-partner
 
-- She is finding it difficult to find non-profit programs that are completely
-  free for the students
 - She is finding it hard to get in contact with the organizers/coaches of
   various programs
 
+### Scenario-partner
+
+- She is looking for a program to partner with and get advertisement on their
+  website
+  ***
+
+<!-- The fourth user persona targets the sponsors-->
+
+## User-Persona-Sponsor
+
+### Bio-sponsor
+
+- Chris is a successful web developer and philanthropist that donates to
+  programs he finds deserving.
+
+### Needs/Goals-sponsor
+
+- He would like to be able see information about the program on the website
+- He needs to be able to see the impact of the program and success stories
+- He needs to be able to find clear information about how to contact the
+  organizers/coaches
+- He would like to be able to see information about alumni of the program on the
+  website
+
+### Frustration-sponsor
+
+- He is finding it difficult to find non-profit programs that are completely
+  free for the students
+- He is finding it hard to get in contact with the organizers/coaches of various
+  programs
+
 ### Scenario-sponsor
 
-- She is looking for a program to donate to and in return get advertisement on
-  their website
+- He is looking for a deserving program to donate to and sponsor
   ***
