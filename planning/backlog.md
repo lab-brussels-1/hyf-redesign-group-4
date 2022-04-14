@@ -4,7 +4,7 @@
 
 <!----Introduction to the course and what HYF offers--->
 
-### **Home Page**
+**`Home Page`**
 
 ### As a user
 
@@ -63,7 +63,7 @@ course-->
 <!--information related to the Program page I can look over the study plans that Hack Your Future offers by navigating in the home page and checking information related to sessions or other activities
   such as a "final project"--->
 
-As a coach
+### As a coach
 
 <!---introduction in the home page--->
 
@@ -83,7 +83,7 @@ vision and goals with students
   - [ ] _there is a submit box "discover the full curriculum" to know curriculam
         details._
 
-### As partner
+### As a partner
 
 - I would like to know the HYF partners.
 
