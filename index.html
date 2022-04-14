@@ -12,16 +12,73 @@
       crossorigin="anonymous"
     />
 
-    <link href="./styles/index.css" rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- Info -->
 
-    <section class="bg-light text-dark p-5 text-center text-sm-start">
-      <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
-          <div class="container">
-            <h3><span class="text-primary">OUR PROGRAM</span></h3>
+  <body>
+    <header>
+      <div class="container-fluid w-75">
+        <nav class="navbar navbar-expand-lg fs-6 navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-4 rounded-pill p-2" href="#"
+              ><img class="logo" src="./planning/assets/logo.svg" alt="" />.</a
+            >
+            <button
+              class="navbar-toggler bg-black"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black act"
+                    aria-current="page"
+                    href="#"
+                    >THE PROGRAM</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">VOLUNTEER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">DIGITALENTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">SUPPORT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="middle bg-dark text-center">
+        <h1 class="text-white">HACK YOUR FUTURE</h1>
+        <p class="text-warning">Helping New Talent Into The Tech World</p>
+        <a href="#" class="btn me-3 btn-outline-light">Apply Now</a>
+        <a href="#" class="btn text-white btn-outline-warning">Donate</a>
+      </div>
+    </header>
+
+    <!-- --------------- Info ------------------->
+
+    <section>
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="text-primary fw-bold">OUR PROGRAM</h3>
             <p class="lead my-4">
               Our <b><span class="text-primary">9-month</span></b> program is
               divided into <b><span class="text-primary">12 modules</span></b
@@ -39,7 +96,6 @@
               <b><span class="text-primary">self-study</span></b
               >, homework and peer learning.
             </p>
-
             <a href="pages/program.html"
               ><b
                 >Discover more <i class="bi bi-arrow-right-short"></i
@@ -58,10 +114,10 @@
                   /></svg></b
             ></a>
           </div>
-          <div class="container text-end mt-5">
+          <div class="col-6">
             <img
-              class="image-fluid w-50 info-image"
-              src="planning/assets/hyf2.jpg"
+              class="image-fluid me-3 rounded-3 info-image"
+              src="planning/assets/img-1.jpg"
               alt="students smiling"
             />
           </div>
