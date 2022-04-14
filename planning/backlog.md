@@ -4,30 +4,38 @@
 
 <!----Introduction to the course and what HYF offers--->
 
-- **Home Page**
+### **Home Page**
 
-As a **user** 
+### As a user
 
 - I want to see a logo so that I can identify the website easily and navigate to
   the home page from any pages.
+
   - [ ] _There is a clear logo same as link to the home page in the header_.
 - I want to easily navigate the site
   - [ ] _There is a navigation bar with links to other pages of the site(The
         program ,volunteer,Digitalents,About,FAQ,Supportus,ApplyNow) in the
         right side of the header._
+
 - I would like to know more about HYF and where I can contribute or submit my
   donation.
+
   - [ ] _there is asection directly under the navbar describing title, HYF
         slogan ,a "Donor"button that explains who and how you can contribute to
-        the organization. and a "Apply Now" button for students. :_
-- I can contact Hackyourfuture team to learn more about the project
-  - [ ] _there is a contact form where user can send message and receive details via his/her
-mail id._
-  - [ ] _there is a footer on all pages with contact info,links to social media and Github._
+        the organization. and a "Apply Now" button for students._
+
+- I can contact Hackyourfuture team to learn more about the project.
+
+  - [ ] _there is a contact form where user can contact HYF.
+
+  - [ ] _there is a footer on all pages with
+       contact info,links to social media and Github._
+
 <!---- Nav bar in the home page of HYF
 - There is a nav bar that lets me check other information related to the
 course-->
 <!--a list of requirements displayed, and apply now submit box-->
+
 ### As a student
 
 - I can check information about the course in general such as curriculum
@@ -43,15 +51,17 @@ course-->
   - [ ] _there is a "apply now" button that links to the application form_
   <!--information related to the course displayed in the program section--->
   - [ ] _there is a section in the left side which contains information about
-        the program offered_
-  - [ ] \_there is a button below program section "a discover more" to help to
-        know more details about the program.
-  - [ ]\_there is an image which helps student to view how students at HYF
-  actively participate in the programs.
-  <!--information related to the Program page I can look over the study plans that Hack Your Future offers by navigating in
-  the home page and checking information related to sessions or other activities
-  such as a "final project" --->
-### As a coach 
+        the program offered._
+
+  - [ ] _there is a button below program section "a discover more" to help to
+        know more details about the program._
+
+  - [ ] _there is an image which displays students enjoying the sessions._
+
+<!--information related to the Program page I can look over the study plans that Hack Your Future offers by navigating in the home page and checking information related to sessions or other activities
+  such as a "final project"--->
+
+As a coach
 <!---introduction in the home page--->
 - I can check relevant information about what Hack Your Future is, what are it’s
 vision and goals with students
