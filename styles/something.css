@@ -1,3 +1,7 @@
 body {
   background-color: white;
 }
+
+.info-image {
+  min-width: 391px;
+}
