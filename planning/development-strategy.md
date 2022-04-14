@@ -80,7 +80,7 @@ and footer -[ ] CSS file is linked to HTML
 
 - Style the button
 
-### Donor:
+### Donor
 
 > As a sponsor I want to know where and how I contribute to the organization.
 
