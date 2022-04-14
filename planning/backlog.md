@@ -64,27 +64,29 @@ course-->
 
 <!---introduction in the home page--->
 
-- I can check relevant information about what Hack Your Future is, what are it’s
-vision and goals with students
-<!---Nav bar in the home page of HYF-->
-- [ ] _there is a page 'volunteer" in the navigation bar that checks information
-      related to the volunteers and course curriculum._
-    <!--information displayed  in the program section
-    -I would like to look over the languages supported and what are the platforms
-    used as an image
-    <!---information displayed  in the volunteer page section-->
-  <!--I can easily check the requirements to be a coach in Hack Your Future,
-- [ ] _there displayed as a list in the program section of hack your future web
-      page and also there's a submit box called "Become a coach"_
-- Examine study plans in order to know the methodology of Hack Your Future
-  - [ ] \_there is a submit box "discover the full curriculum" to know
-        curriculam details.-->
+- I can check relevant information about the program.
+
+  - [ ] _there is a link 'volunteer" in the navbar that displays about the volunteers._
+
+<!--information displayed  in the program section- I would like to look over the languages supported and what are the platforms used as an image-->
+
+<!---information displayed  in the volunteer page section--->
+
+- I can easily check the requirements to be a coach in Hack Your Future
+
+  - [ ] _there displayed as a list in the program section of hyf web page._
+
+  - [ ] _there's a submit box called "Become a coach"._
+
+  - [ ] _Examine study plans in order to know the methodology of Hack Your Future._
+  
+  - [ ] _there is a submit box "discover thecurriculum" to know curriculam details._
 
 ### As a sponsor
 
-As a sponsor I want to know where and how I contribute to the organization.
+- As a sponsor I want to know where and how I contribute to the organization.
 
-- [ ] _there is a "Donor" button that explains who and how you can contribute to
+  - [ ] _there is a "Donor" button that explains who and how you can contribute to
       HYF. in the section below the navigation bar_
 
 ### As a partner
