@@ -12,7 +12,9 @@
   the home page from any pages.
 
   - [ ] _There is a clear logo same as link to the home page in the header_.
+
 - I want to easily navigate the site
+
   - [ ] _There is a navigation bar with links to other pages of the site(The
         program ,volunteer,Digitalents,About,FAQ,Supportus,ApplyNow) in the
         right side of the header._
@@ -26,10 +28,10 @@
 
 - I can contact Hackyourfuture team to learn more about the project.
 
-  - [ ] _there is a contact form where user can contact HYF.
+  - [ ] \_there is a contact form where user can contact HYF.
 
-  - [ ] _there is a footer on all pages with
-       contact info,links to social media and Github._
+  - [ ] _there is a footer on all pages with contact info,links to social media
+        and Github._
 
 <!---- Nav bar in the home page of HYF
 - There is a nav bar that lets me check other information related to the
@@ -62,7 +64,9 @@ course-->
   such as a "final project"--->
 
 As a coach
+
 <!---introduction in the home page--->
+
 - I can check relevant information about what Hack Your Future is, what are it’s
 vision and goals with students
 <!---Nav bar in the home page of HYF-->
@@ -76,8 +80,8 @@ vision and goals with students
 - [ ] _there displayed as a list in the program section of hack your future web
       pagevand also there's a submit box called "Become a coach"_
 - Examine study plans in order to know the methodology of Hack Your Future
-  - [ ] _there is a submit box "discover the full curriculum" to know
-        curriculam details._
+  - [ ] _there is a submit box "discover the full curriculum" to know curriculam
+        details._
 
 ### As partner
 
