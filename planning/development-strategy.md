@@ -2,23 +2,25 @@
 
 <!---minju edited--->
 
-> HYF website is for motivated students and refugees to equip them with strong code and webndevelopmentmskills  to kickstart their career in IT and also the volunteer coaches to support the students to master their IT skills.
+> HYF website is for motivated students and refugees to equip them with strong
+> code and webndevelopmentmskills to kickstart their career in IT and also the
+> volunteer coaches to support the students to master their IT skills.
 
 ---
 
 ## Setup
 
--[ ] Boilerplate HTML file
--[ ] CSS file for header, program section, Main info and footer
--[ ] CSS file is linked to HTML
+-[ ] Boilerplate HTML file -[ ] CSS file for header, program section, Main info
+and footer -[ ] CSS file is linked to HTML
 
 ---
 
 ### Logo
 
->As a User I want to see a logo so that I can identify >the website easily and navigate to the home page from >any pages.
+> As a User I want to see a logo so that I can identify >the website easily and
+> navigate to the home page from >any pages.
 
-  - [ ] _There is a clear logo same as link to the home page in the header_.
+- [ ] _There is a clear logo same as link to the home page in the header_.
 
 ### logo: HTML
 
@@ -32,9 +34,10 @@
 
 ### Navigation Bar
 
->As a userI want to easily navigate the site
+> As a userI want to easily navigate the site
 
-  - [ ] _There is a navigation bar with links to other pages of the site(The program ,volunteer,Digitalents,About,FAQ,Supportus)._
+- [ ] _There is a navigation bar with links to other pages of the site(The
+      program ,volunteer,Digitalents,About,FAQ,Supportus)._
 
 ### Navigation Bar: HTML
 
@@ -49,11 +52,13 @@
 
 ### Information about the program
 
->As a user- I would like to know more about HYF and >where I can contribute or submit my donation.
+> As a user- I would like to know more about HYF and >where I can contribute or
+> submit my donation.
 
 ### Title and slogon: HTML
 
 -A div with title of the website and slogan HYF website in the header
+
 - Paragraph with background image at the center of the page in body.
 
 ### Title and slogan: CSS
@@ -62,10 +67,10 @@
 
 ### Apply Now
 
->As a student, I can easily check the requirements to apply for the course and information.
-  related to the course .
+> As a student, I can easily check the requirements to apply for the course and
+> information. related to the course .
 
-  - [ ] _there is a "apply now" button that links to the application form_
+- [ ] _there is a "apply now" button that links to the application form_
 
 ### An Apply Now: HTML
 
@@ -75,15 +80,16 @@
 
 - Style the button
 
-### Donor: 
+### Donor:
 
->As a sponsor I want to know where and how I contribute to the organization.
+> As a sponsor I want to know where and how I contribute to the organization.
 
-- [ ] _there is a "Donor" button that explains who and how you can contribute to HYF._
+- [ ] _there is a "Donor" button that explains who and how you can contribute to
+      HYF._
 
 ### Donor: HTML
 
-- A  "Donor" button
+- A "Donor" button
 
 ### Donor: CSS
 
@@ -93,15 +99,15 @@
 
 ### Our program section
 
->As a student I would like to know about the program .
+> As a student I would like to know about the program .
 
-  - [ ] _there is a section in the left side which contains information about
-        "our program" offered.
+- [ ] \_there is a section in the left side which contains information about
+      "our program" offered.
 
-  - [ ] _there is a button below program section "a discover more" to help to
-        know more details about the program._
+- [ ] _there is a button below program section "a discover more" to help to know
+      more details about the program._
 
-  - [ ] _there is an image which displays students enjoying the sessions._
+- [ ] _there is an image which displays students enjoying the sessions._
 
 ### Our Program :HTML
 
@@ -113,11 +119,12 @@
 
 ### Discover more:HTML
 
-- A button below program section "a discover more" to help to know more details about the program.
+- A button below program section "a discover more" to help to know more details
+  about the program.
 
 ### Discover more:CSS
 
-- Style the button 
+- Style the button
 
 ### Images: HTML
 
@@ -128,7 +135,7 @@
 - styling the div to have a good width.
 - style the image to be right of the "our program " section.
 
-----
+---
 
 ## Form
 
@@ -139,7 +146,8 @@
 
 ### Form: HTML
 
-- Have a div with form contains labels Name, Email,and type a message text area with a button to send.
+- Have a div with form contains labels Name, Email,and type a message text area
+  with a button to send.
 
 ### Form: CSS
 
@@ -147,11 +155,12 @@
 
 ### Footer
 
-> As a user I want to know official
-> information including address, email and be able to contact HYF on social
-> media and github to be able to ask questions and see any updates, also
+> As a user I want to know official information including address, email and be
+> able to contact HYF on social media and github to be able to ask questions and
+> see any updates, also
 
-- [ ] The footer on all the pages with contact information for social media , GitHub and livechat.
+- [ ] The footer on all the pages with contact information for social media ,
+      GitHub and livechat.
 
 ### Footer: HTML
 
