@@ -4,36 +4,90 @@
 
 <!----Introduction to the course and what HYF offers--->
 
-As a student I can check clearly information about the course in general
+**`Home Page`**
 
-<!---Nav bar in the home page of HYF-->
+### As a user
 
-- There is a nav bar that lets me check other information related to the course
+- I want to see a logo so that I can identify the website easily and navigate to
+  the home page from any pages.
+
+  - [ ] _There is a clear logo same as link to the home page in the header_.
+
+- I want to easily navigate the site
+
+  - [ ] _There is a navigation bar with links to other pages of the site(The
+        program ,volunteer,Digitalents,About,FAQ,Supportus,ApplyNow) in the
+        right side of the header._
+
+- I would like to know more about HYF and where I can contribute or submit my
+  donation.
+
+  - [ ] _there is asection directly under the navbar describing title, HYF
+        slogan ,a "Donor"button that explains who and how you can contribute to
+        the organization. and a "Apply Now" button for students._
+
+- I can contact Hackyourfuture team to learn more about the project.
+
+  - [ ] \_there is a contact form where user can contact HYF.
+
+  - [ ] _there is a footer on all pages with contact info,links to social media
+        and Github._
+
+<!---- Nav bar in the home page of HYF
+- There is a nav bar that lets me check other information related to the
+course-->
 <!--a list of requirements displayed, and apply now submit box-->
 
-- I can easily check the requirements to apply for the course and information
-  related to the course and "apply now" submit box.
-  <!--information related to the course displayed in the program section--->
-- I can look over the study plans that Hack Your Future offers by navigating in
-  the home page and checking information related to sessions or other activities
-  such as a "final project"
-- I can also look "a discover more" box
+### As a student
 
-As a coach candidate I can
+- I can check information about the course in general such as curriculum
+  offered, duration of the course ,basic skills required for the course and the
+  requirement for the applicant. (age, mode of communication, motivation... )
+
+  - [ ] _there is a page which contains brief information about the program
+        offered in the navbar_
+
+- I can easily check the requirements to apply for the course and information.
+  related to the course .
+
+  - [ ] _there is a "apply now" button that links to the application form_
+  <!--information related to the course displayed in the program section--->
+  - [ ] _there is a section in the left side which contains information about
+        the program offered._
+
+  - [ ] _there is a button below program section "a discover more" to help to
+        know more details about the program._
+
+  - [ ] _there is an image which displays students enjoying the sessions._
+
+<!--information related to the Program page I can look over the study plans that Hack Your Future offers by navigating in the home page and checking information related to sessions or other activities
+  such as a "final project"--->
+
+### As a coach
 
 <!---introduction in the home page--->
 
-- Check relevant information about what Hack Your Future is, what are it’s
+- I can check relevant information about what Hack Your Future is, what are it’s
 vision and goals with students
 <!---Nav bar in the home page of HYF-->
-- There is a nav bar that lets me check other information related to the course
-<!--information displayed  in the program section-->
-- Look over the languages supported and what are the platforms used as an image
+- [ ] _there is a page 'volunteer" in the nav bar that checks information
+      related to the course._
+  <!--information displayed  in the program section-->
+  -I would like to look over the languages supported and what are the platforms
+  used as an image
+  <!--information displayed  in the volunteer page section-->
 - I can easily check the requirements to be a coach in Hack Your Future,
-  displayed as a list in the program section of hack your future web page; also
-  there's a submit box called "become a coach"
+- [ ] _there displayed as a list in the program section of hack your future web
+      pagevand also there's a submit box called "Become a coach"_
 - Examine study plans in order to know the methodology of Hack Your Future
-  through the "discover the full curriculum" submit box
+  - [ ] _there is a submit box "discover the full curriculum" to know curriculam
+        details._
+
+### As a partner
+
+- I would like to know the HYF partners.
+
+  - [ ] _there is a section that contains a logo from HYF partners._
 
 ## Should Haves
 
