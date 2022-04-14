@@ -66,7 +66,8 @@ course-->
 
 - I can check relevant information about the program.
 
-  - [ ] _there is a link 'volunteer" in the navbar that displays about the volunteers._
+  - [ ] _there is a link 'volunteer" in the navbar that displays about the
+        volunteers._
 
 <!--information displayed  in the program section- I would like to look over the languages supported and what are the platforms used as an image-->
 
@@ -78,16 +79,18 @@ course-->
 
   - [ ] _there's a submit box called "Become a coach"._
 
-  - [ ] _Examine study plans in order to know the methodology of Hack Your Future._
-  
-  - [ ] _there is a submit box "discover thecurriculum" to know curriculam details._
+  - [ ] _Examine study plans in order to know the methodology of Hack Your
+        Future._
+
+  - [ ] _there is a submit box "discover thecurriculum" to know curriculam
+        details._
 
 ### As a sponsor
 
 - As a sponsor I want to know where and how I contribute to the organization.
 
-  - [ ] _there is a "Donor" button that explains who and how you can contribute to
-      HYF. in the section below the navigation bar_
+  - [ ] _there is a "Donor" button that explains who and how you can contribute
+        to HYF. in the section below the navigation bar_
 
 ### As a partner
 
