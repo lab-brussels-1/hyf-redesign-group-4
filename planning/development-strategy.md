@@ -2,17 +2,16 @@
 
 <!---minju edited--->
 
- HYF website is for motivated students and refugees to equip them with strong
- code and webndevelopmentmskills to kickstart their career in IT and also the
- volunteer coaches to support the students to master their IT skills.
+HYF website is for motivated students and refugees to equip them with strong
+code and webndevelopmentmskills to kickstart their career in IT and also the
+volunteer coaches to support the students to master their IT skills.
 
 ---
 
 ## Setup
 
-- [ ] Boilerplate HTML file 
-- [ ] CSS file for header, program section, Main info
-and footer
+- [ ] Boilerplate HTML file
+- [ ] CSS file for header, program section, Main info and footer
 - [ ] CSS file is linked to HTML
 
 ---
