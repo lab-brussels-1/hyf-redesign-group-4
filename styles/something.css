@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .info-image {
   min-width: 391px;
 }
