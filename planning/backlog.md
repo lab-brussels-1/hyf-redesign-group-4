@@ -23,9 +23,11 @@
 
   - [ ] _There is a contact form where user can contact HYF._
 
-- I want to know the information including address, email and be able to contact HYF on socialmedia and github to be able to ask questions .
+- I want to know the information including address, email and be able to contact
+  HYF on socialmedia and github to be able to ask questions .
 
-   - [ ]_There is a footer on all the pages with contact information for social media , GitHub and livechat._
+  - [ ]_There is a footer on all the pages with contact information for social
+    media , GitHub and livechat._
 
 <!---- Nav bar in the home page of HYF
 - There is a nav bar that lets me check other information related to the
@@ -44,7 +46,8 @@ course-->
 - I can easily check the requirements to apply for the course and information.
   related to the course .
 
-  - [ ] _there is a "apply now" button that links to the application form in the section below the navigation bar._
+  - [ ] _there is a "apply now" button that links to the application form in the
+      section below the navigation bar._
   <!--information related to the course displayed in the program section--->
   - [ ] _there is a section in the left side which contains information about
         "our program" offered._
@@ -66,22 +69,23 @@ vision and goals with students
 <!---Nav bar in the home page of HYF-->
 - [ ] _there is a page 'volunteer" in the navigation bar that checks information
       related to the volunteers and course curriculum._
-  <!--information displayed  in the program section
-  -I would like to look over the languages supported and what are the platforms
-  used as an image
-  <!---information displayed  in the volunteer page section-->
-<!--I can easily check the requirements to be a coach in Hack Your Future,
+    <!--information displayed  in the program section
+    -I would like to look over the languages supported and what are the platforms
+    used as an image
+    <!---information displayed  in the volunteer page section-->
+  <!--I can easily check the requirements to be a coach in Hack Your Future,
 - [ ] _there displayed as a list in the program section of hack your future web
       page and also there's a submit box called "Become a coach"_
 - Examine study plans in order to know the methodology of Hack Your Future
-  - [ ] _there is a submit box "discover the full curriculum" to know curriculam
-        details.-->
+  - [ ] \_there is a submit box "discover the full curriculum" to know
+        curriculam details.-->
 
 ### As a sponsor
 
 As a sponsor I want to know where and how I contribute to the organization.
 
-- [ ] _there is a "Donor" button that explains who and how you can contribute to HYF. in the section below the navigation bar_ 
+- [ ] _there is a "Donor" button that explains who and how you can contribute to
+      HYF. in the section below the navigation bar_
 
 ### As a partner
 
