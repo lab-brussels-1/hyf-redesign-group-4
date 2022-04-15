@@ -71,6 +71,10 @@ a {
 
 /* ------ Our contact values--------- */
 
+.size2 {
+  height: 10rem;
+}
+
 .card {
   background: rgb(255, 174, 0);
   color: rgb(0, 0, 0);
