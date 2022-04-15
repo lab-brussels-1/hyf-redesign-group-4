@@ -103,3 +103,58 @@ a {
 .grid-3 {
   grid-template-columns: repeat(2, 3fr);
 }
+
+/* footer */
+
+.footer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  flex: 0 0 auto;
+  align-items: center;
+}
+
+.head-footer {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: center;
+}
+
+.footer-address {
+  text-align: center;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  white-space: pre-wrap;
+  font-weight: 300;
+}
+
+.social-media {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex: 0 1 100%;
+  margin: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.sm-icon {
+  height: 30px;
+}
+
+img {
+  width: auto;
+  max-height: 100%;
+}
