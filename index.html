@@ -309,20 +309,25 @@
 
     <!------ success stories by minju ------>
 
-    <section class="p-5 bg-dark">
+    <section class="p-4 bg-dark">
       <div class="container text-center">
-        <div class="p-3 container">
+        <div class="p-2 container">
           <h2 class="pb-3 text-warning">Our Success Stories</h2>
         </div>
-        <div class="container p-3">
-          <div class="row g-5 text-center">
+        <div class="container p-2">
+          <!---Carousel with indicators used.(A slideshow component for cycling through elements)--->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+          <div class="row g-4 text-center">
             <div class="col-md">
-              <div class="card bg-warning text-light">
-                <div class="card-body text-center">
+              <div class="card bg-warning text-dark">
+                  <div class="card-body text-center">
                   <div>
                     <img
                       src="planning/assets/teddy.png"
                       class="rounded-circle"
+                      class="d-block w-100"
                       alt="Teddy image"
                     />
                   </div>
@@ -331,24 +336,28 @@
                   <p class="card-text">
                     "HYF is a light that I saw at the bottom as well, a hope
                     that I held onto as I was building a new life in a new
-                    country. It gave me a chance not only to improve my
+                    country.It gave me a chance not only to improve my
                     knowledge but to boost my confidence. Also, it gave me a
                     chance to meet many wonderful people."
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+          </div>
+          <div class="carousel-item">
             <div class="col-md">
-              <div class="card bg-warning text-light">
+              <div class="card bg-warning text-dark">
                 <div class="card-body text-center">
                   <div>
                     <img
                       src="planning/assets/haneefa.jpg"
                       class="rounded-circle"
-                      alt="Teddy image"
+                      class="d-block w-100"
+                      alt="haneefa image"
                     />
                   </div>
-                  <h3 class="mb-3">Haneefa-AppTweak</h3>
+                  <h3 class="mb-3">Haneefa- ttl.be</h3>
                   <h5 class="mb-3">Full-stack Developer</h5>
                   <p class="card-text">
                     "Hack your future definitely built the bridge between the
@@ -360,14 +369,17 @@
                 </div>
               </div>
             </div>
+           </div>
+          <div class="carousel-item">
             <div class="col-md">
-              <div class="card bg-warning text-light">
+              <div class="card bg-warning text-dark">
                 <div class="card-body text-center">
                   <div>
                     <img
                       src="planning/assets/madhu.jpg"
                       class="rounded-circle"
-                      alt="Teddy image"
+                      class="d-block w-100"
+                      alt="Madhu image"
                     />
                   </div>
                   <h3 class="mb-3">Madhu-Bpost</h3>
@@ -382,14 +394,17 @@
                 </div>
               </div>
             </div>
+          </div>
+         <div class="carousel-item">
             <div class="col-md">
-              <div class="card bg-warning text-light">
+              <div class="card bg-warning text-dark">
                 <div class="card-body text-center">
                   <div>
                     <img
-                      src="planning/assets/alex.jpg"
+                      src="planning/assets/alexn.jpg"
                       class="rounded-circle"
-                      alt="Teddy image"
+                      class="d-block w-100"
+                      alt="Alex image"
                     />
                   </div>
                   <h3 class="mb-3">Alex-Apple</h3>
@@ -403,11 +418,29 @@
                   </p>
                 </div>
               </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+          <!---
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          --->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+</section>
 
     <!------ success stories end by minju ------>
 
