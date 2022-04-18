@@ -260,30 +260,36 @@ iframe {
 /* ---- contact and form by Haneefa end ---- */
 
 /* ----- our core values ---- */
-.our-core-values{
-background-color: rgb(247, 142, 6);
-font-family: "Poppins", sans-serif;
-height: 100%;
+
+.our-core-values {
+  background-color: rgb(247, 142, 6);
+  font-family: "Poppins", sans-serif;
+  height: 100%;
 }
-.container{
-    max-width: 873px;
-    margin: 0 auto;
-    padding: 0 70px;
+
+.container {
+  max-width: 873px;
+  margin: 0 auto;
+  padding: 0 70px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    height: 100%;
-    align-content: space-between;
-    justify-items: stretch;
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
 }
-.grid-2{
+
+.grid-2 {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .values.grid > *:first-child {
   grid-column: 1 / span 3;
 }
+
 .btn-2 {
   display: inline-block;
   padding: 10px 30px;
@@ -301,6 +307,7 @@ height: 100%;
   padding: 20px;
   margin: 10px;
 }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -309,11 +316,81 @@ height: 100%;
   overflow-y: hidden;
 }
 
-
 .values.grid .card > i {
   margin-right: 20px;
 }
 
-.icon-size{
+.icon-size {
   font-size: 4em;
+}
+
+/* ----- Responsive for our core values ---- */
+
+@media (max-width: 500px) {
+  .our-core-values h3 {
+    max-width: 500px;
+    font-size: 18px;
+  }
+
+  .our-core-values p {
+    width: 150px;
+    font-size: 10px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    height: 65%;
+    align-content: space-between;
+    justify-items: stretch;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .values.grid > *:first-child {
+    grid-column: 1 / span 3;
+  }
+
+  .btn-2 {
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+    background: rgb(113, 172, 152);
+    border: none;
+    border-radius: 5px;
+  }
+
+  .card {
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(19, 31, 46, 0.925);
+    padding: 8px;
+    margin: 1px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    overflow-y: hidden;
+  }
+
+  .values.grid .card > i {
+    margin-right: 80px;
+  }
+
+  .icon-size {
+    font-size: 1.5em;
+  }
 }
