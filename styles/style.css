@@ -394,3 +394,58 @@ iframe {
     font-size: 1.5em;
   }
 }
+
+/* footer by kiishi */
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(33, 37, 41);
+}
+
+.head-footer {
+  color: rgb(255, 193, 7);
+  font-size: x-large;
+}
+
+.footer-address {
+  color: white;
+  padding-top: 20px;
+  font-family: "Space Mono", monospace;
+}
+
+.social-media {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex: 0 1 100%;
+  margin: 20px;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  text-align: center;
+}
+
+/* footer end by kiishi */
+
+/* partner by kiishi */
+
+.partners {
+  text-align: center;
+  padding: 20px;
+}
+
+.partnerimg {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.partnerbutton {
+  font-size: medium;
+}
+
+/* partner end by kiishi */

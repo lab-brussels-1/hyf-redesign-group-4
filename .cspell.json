@@ -45,7 +45,10 @@
     "loqtzb",
     "jcgo",
     "webndevelopmentmskills",
-    "slogon"
+    "slogon",
+    "cantersteen",
+    "partnerimg",
+    "partnerbutton"
   ],
   "ignorePaths": [
     "node_modules/**",
