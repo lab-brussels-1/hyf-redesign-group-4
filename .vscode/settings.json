@@ -3,5 +3,6 @@
   "editor.renderIndentGuides": true,
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.port": 5501
 }
