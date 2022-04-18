@@ -1,90 +1,111 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
-  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 a {
   text-decoration: none;
 }
 
-.info-image {
-  width: 100%;
-  height: 350px;
-}
+/* ---- header ---- */
 
-/* -------------- header --------- */
+/* --- navbar --  */
+
+.navbar {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
+}
 
 .logo {
-  width: 70px;
+  padding: 1rem;
 }
 
-.navbar ul li a:hover {
+.logo img {
+  width: 4.5rem;
+}
+
+.nav-list {
+  margin: auto 1px;
+}
+
+.nav-list ul li {
+  display: inline-flex;
+  padding-left: 5px;
+}
+
+.nav-list ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
   color: black;
-  border-bottom: 2px solid black;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2px;
 }
 
-.navbar .nav-link {
-  font-size: 14px;
+.nav-list ul li a:hover {
+  border-color: black;
 }
 
-.middle {
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 20px;
+/* ---- title ----- */
+
+.main-title {
+  background-color: rgb(35, 35, 35);
   height: auto;
-  width: 100%;
 }
 
-.middle h1 {
+.title {
+  text-align: center;
+  padding: 30px;
+}
+
+.title-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
   font-size: 3rem;
-  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
-.middle p {
-  font-size: 3rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: 100;
+.slogan {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: rgb(255, 193, 7);
+  margin-bottom: 20px;
 }
 
-/* ---------------- header end ------------- */
-
-/* ----- Contact Form by Haneefa ------ */
-
-.change {
-  background-color: rgb(74, 80, 187);
+.btn {
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 8px;
+  margin: 20px 5px;
+  color: white;
+  transition: 0.5s;
 }
 
-/* ----- Contact Form end by Haneefa ------ */
-
-.black {
-  background-color: rgba(46, 46, 46, 0.473);
+.btn-apply:hover {
+  background-color: white;
+  color: black;
 }
 
-/* ------ Our contact values--------- */
-
-/* ---- Our core value ---  */
-.card {
-  background: rgb(255, 174, 0);
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(173, 121, 121, 0.2);
-  padding: 20px;
-  margin: 10px;
+.btn-donate {
+  border: 1px solid rgb(255, 193, 7);
 }
 
-/* footer */
-
-.icon {
-  height: 30px;
+.btn-donate:hover {
+  background-color: rgb(255, 193, 7);
 }
 
-/* partner */
-
-.partner {
-  height: 400px;
-}
+/* ---- header css end ----  */
