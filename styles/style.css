@@ -79,12 +79,44 @@ a {
 
 /* footer */
 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(33, 37, 41);
+}
+
+.head-footer {
+  color: rgb(255, 193, 7);
+}
+
+.footer-address {
+  color: white;
+  padding-top: 20px;
+}
+
+.social-media {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex: 0 1 100%;
+  margin: 20px;
+  justify-content: center;
+}
+
 .icon {
-  height: 30px;
+  width: 30px;
+  text-align: center;
 }
 
 /* partner */
 
-.partner {
-  height: 400px;
+.partners {
+  text-align: center;
+}
+
+.partnerimg {
+  max-width: 100%;
+  padding-top: 20px;
 }
