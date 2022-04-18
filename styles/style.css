@@ -247,7 +247,7 @@ form {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #6c757d73;
   padding-top: 30px;
 }
 
@@ -258,3 +258,62 @@ iframe {
 }
 
 /* ---- contact and form by Haneefa end ---- */
+
+/* ----- our core values ---- */
+.our-core-values{
+background-color: rgb(247, 142, 6);
+font-family: "Poppins", sans-serif;
+height: 100%;
+}
+.container{
+    max-width: 873px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    align-content: space-between;
+    justify-items: stretch;
+}
+.grid-2{
+  grid-template-columns: repeat(3, 1fr);
+}
+.values.grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+.btn-2 {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: rgb(113, 172, 152);
+  border: none;
+  border-radius: 5px;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(19, 31, 46, 0.925);
+  padding: 20px;
+  margin: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+
+.values.grid .card > i {
+  margin-right: 20px;
+}
+
+.icon-size{
+  font-size: 4em;
+}
