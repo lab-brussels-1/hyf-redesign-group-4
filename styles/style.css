@@ -455,6 +455,7 @@ textarea {
 
 .image-info {
   margin-left: auto;
+  width: 100%;
 }
 
 b {
@@ -502,6 +503,11 @@ b {
 
 .card-impact {
   background-color: rgb(255, 193, 7);
+  color: #333;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+  padding: 15px 15px 15px 15px;
 }
 
 /* Responsiveness info and impact */
