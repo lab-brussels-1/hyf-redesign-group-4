@@ -358,6 +358,7 @@ textarea {
 .partners {
   text-align: center;
   margin: 3rem;
+  padding: 20px;
 }
 
 .title-partners {
@@ -370,6 +371,7 @@ textarea {
   box-shadow: -3px -3px 7px #fff, -3px -3px 5px #ceced1;
   max-width: 100%;
   margin: 3rem 1px;
+  padding-top: 20px;
 }
 
 .btn-partner {
@@ -422,16 +424,6 @@ textarea {
 /* footer end by kiishi */
 
 /* partner by kiishi */
-
-.partners {
-  text-align: center;
-  padding: 20px;
-}
-
-.partnerimg {
-  max-width: 100%;
-  padding-top: 20px;
-}
 
 .partnerbutton {
   font-size: medium;
