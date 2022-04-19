@@ -421,7 +421,6 @@ textarea {
 
 /* footer end by kiishi */
 
-
 /* partner by kiishi */
 
 .partners {
@@ -451,7 +450,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   padding: 15px 15px 15px 15px;
-  font-size:24px
+  font-size: 24px;
 }
 
 .container-info > div {
@@ -501,7 +500,7 @@ b {
   flex-direction: column;
   width: 100%;
   padding: 50px;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .impact-card-h3 {
@@ -511,15 +510,13 @@ b {
 .card {
   background-color: rgb(255, 193, 7);
 }
-
-@media (max-width:500px) {
-
-.impact-container{
-  flex-direction:column
-}
-.container-info{
-  flex-direction:column;
-}
-}
 /* Responsiveness info and impact*/
 
+@media (max-width: 500px) {
+  .impact-container {
+    flex-direction: column;
+  }
+  .container-info {
+    flex-direction: column;
+  }
+}
