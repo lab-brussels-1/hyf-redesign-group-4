@@ -3,4 +3,7 @@
 ## Home page
 
 ![Home page](/planning/assets/Home-page.png)
-![Support us](/planning/assets/support-us.svg)
+
+## Support us page
+
+![Support us](/planning/assets/support-us.png)
