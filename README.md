@@ -29,7 +29,7 @@
 
 ## ✅ Screenshots
 
-![Hack Your Future](./planning/assets/website-home-page.png)
+![Hack Your Future](./planning/assets/website-screenshot.png)
 
 ## ✅ Technologies
 

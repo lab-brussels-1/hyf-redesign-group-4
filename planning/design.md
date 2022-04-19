@@ -6,4 +6,4 @@
 
 ## Support us page
 
-![Support us](/planning/assets/support-us.png)
+![Support us](/planning/assets/support-us-new.png)
