@@ -11,6 +11,7 @@
 
   <body>
     <!----------------------- Header section ------------------ -->
+
     <header class="header">
       <nav class="navbar">
         <div class="logo">
@@ -23,22 +24,25 @@
         <div class="nav-list">
           <ul>
             <li>
-              <a href="">The program</a>
+              <a href="#">The program</a>
             </li>
             <li>
-              <a href="">Volunteer</a>
+              <a href="#">Volunteer</a>
             </li>
             <li>
-              <a href="">Digitalents</a>
+              <a href="#">Digitalents</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="#">About</a>
             </li>
             <li>
-              <a href="">Support us</a>
+              <a href="#">Support us</a>
             </li>
             <li>
-              <a href="">Team</a>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Team</a>
             </li>
           </ul>
         </div>
@@ -55,6 +59,7 @@
         </div>
       </div>
     </header>
+
 
     <!-- Info -->
     <section class="info-section">
@@ -109,51 +114,47 @@
 
 
 
+
     <!---Core Values-->
+
     <section class="our-core-values">
-      <div class="container grid grid-3"><h1>Our Core Values</h1></div>
-      <div class="container grid grid-3">
-        <div class="card flex btn-2">
-          <div class="text-center">
-            <i class="icon-users icon-size"></i>
-            <h3>Community</h3>
-            <p>
-              Our program is adapted to suit people with different backgrounds,
-              often in vulnerable situations. We teach on Sundays to allow
-              everyone to take control of their personal
-            </p>
-          </div>
+      <div class="title-values">
+        <h2>Our Core Values</h2>
+      </div>
+      <div class="container grid">
+        <div class="card">
+          <i class="icon-users icon-size"></i>
+          <h3>Community</h3>
+          <p>
+            Our program is adapted to suit people with different backgrounds,
+            often in vulnerable situations. We teach on Sundays to allow
+            everyone to take control of their personal
+          </p>
         </div>
-        <div class="card flex btn-2">
-          <div class="text center">
-            <i class="icon-heart-filled icon-size"></i>
-            <h3>Diversity &amp; inclusiveness</h3>
-            <p>
-              We’re largely dependent on volunteers.That’s what makes us an
-              engaged grassroots community, as our students call family
-            </p>
-          </div>
+        <div class="card">
+          <i class="icon-heart-filled icon-size"></i>
+          <h3>Diversity &amp; inclusiveness</h3>
+          <p>
+            We’re largely dependent on volunteers.That’s what makes us an
+            engaged grassroots community, as our students call family
+          </p>
         </div>
-        <div class="card flex btn-2">
-          <div class="text-center">
-            <i class="icon-graduation-cap icon-size"></i>
-            <h3>Commitment</h3>
-            <p>
-              Our program is free of charge, although we ask for strong
-              commitment during our 7 month-journey. And you know what? many
-              alumni stay actively involved in the project
-            </p>
-          </div>
+        <div class="card">
+          <i class="icon-graduation-cap icon-size"></i>
+          <h3>Commitment</h3>
+          <p>
+            Our program is free of charge, although we ask for strong commitment
+            during our 7 month-journey. And you know what? many alumni stay
+            actively involved in the project
+          </p>
         </div>
-        <div class="card flex btn-2">
-          <div class="text-center">
-            <i class="icon-lock-open-filled icon-size"></i>
-            <h3>Open</h3>
-            <p>
-              Sharing is caring. Our curriculum is 100% open. We believe in
-              knowledge for the many, not the few. Any knowledge is welcome
-            </p>
-          </div>
+        <div class="card">
+          <i class="icon-lock-open-filled icon-size"></i>
+          <h3>Open</h3>
+          <p>
+            Sharing is caring. Our curriculum is 100% open. We believe in
+            knowledge for the many, not the few. Any knowledge is welcome
+          </p>
         </div>
       </div>
     </section>
@@ -161,85 +162,80 @@
     <!-- partners by kiishi-->
 
     <section class="partners">
-      <div>
-        <h3 class="head-footer">OUR PARTNERS</h3>
-        <img alt="partners" src="images/partners.jpg" class="partnerimg" />
-        <div>
-          <a href="mailto:contact@hackyourfuture.be" class="partnerbutton"
-            >BECOME A PARTNER</a
-          >
-        </div>
+      <h2 class="title-partners">Our Partners</h2>
+      <img alt="partners" src="images/partners.jpg" class="partnerimg" />
+      <a class="btn btn-partner" href="mailto:contact@hackyourfuture.be"
+        >BECOME A PARTNER</a
+      >
+    </section>
+
+    <!-- partners end by kiishi-->
+    <!-- Contact form and map by Haneefa ---->
+
+    <section class="form-map">
+      <div class="form-info">
+        <h2>CONTACT US</h2>
+        <p>
+          We’re always happy to welcome people like you to our HYF community.
+          Drop us a line an become part of it!
+        </p>
+        <form class="register">
+          <label> First Name : </label>
+          <br />
+          <input
+            type="text"
+            name="first-name"
+            placeholder="Enter Your First Name"
+          />
+          <br /><br />
+          <label>Last Name : </label>
+          <br />
+          <input
+            type="text"
+            name="last-name"
+            placeholder="Enter Your Last Name"
+          />
+          <br /><br />
+          <label>Email : </label>
+          <br />
+          <input type="email" name="email" placeholder="Enter Your Email" />
+          <br /><br />
+          <label>Message :</label>
+          <br />
+          <textarea
+            name="text"
+            cols="43"
+            rows="5"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <br /><br />
+          <button class="btn btn-submit" type="submit">submit</button>
+        </form>
+      </div>
+      <div class="map">
+        <h2>Our Brussels campus</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.2222857504066!2d4.355293715745771!3d50.84556787953188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xaf49337d11f9b097!2sHackYourFuture%20Belgium!5e0!3m2!1sen!2sbe!4v1649892301642!5m2!1sen!2sbe"
+          width="800"
+          height="530"
+          title="google map"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p class="footer-block">
+          Drag the marker on the map to a more accurate position(this will not
+          effect the address)
+        </p>
       </div>
     </section>
-    <!-- partners end by kiishi-->
 
-    <!-- Contact form and map by Haneefa ---->
-    <!-- Wrapper container -->
-
-    <div class="container-contact grid">
-      <div class="contact-row contact-col-gap">
-        <div class="contact-column form">
-          <h2 class="text-style">CONTACT US</h2>
-          <p class="form-paragraph">
-            We’re always happy to welcome people like you to our HYF community.
-            Drop us a line an become part of it!
-          </p>
-
-          <!-- css contact form -->
-
-          <form class="form-paragraph">
-            <!-- Name input -->
-
-            <label for="name">👤 Full Name</label>
-            <input
-              name="name"
-              type="text"
-              class="feedback-input"
-              placeholder="Name"
-            />
-            <!-- Email address input -->
-            <label for="email">✉️ Email Address</label>
-            <input
-              name="email"
-              type="text"
-              class="feedback-input"
-              placeholder="Email address"
-            />
-            <!-- Message input -->
-            <label for="message">✍🏻 Message</label>
-            <textarea
-              name="text"
-              class="feedback-input message-size"
-              placeholder="Message"
-            ></textarea>
-            <!-- Form submit button -->
-            <button class="btn" type="submit" value="Send">SEND</button>
-          </form>
-        </div>
-        <!-- css Map -->
-        <div class="contact-column">
-          <h1 class="text-map">Our Brussels campus</h1>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.2222857504066!2d4.355293715745771!3d50.84556787953188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xaf49337d11f9b097!2sHackYourFuture%20Belgium!5e0!3m2!1sen!2sbe!4v1649892301642!5m2!1sen!2sbe"
-            width="800"
-            height="520"
-            title="google map"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <p class="footer-block">
-            Drag the marker on the map to a more accurate position(this will not
-            effect the address)
-          </p>
-        </div>
-      </div>
-    </div>
     <!-- Contact form and map by Haneefa end---->
     <!--- footer -->
+
     <footer class="footer">
-      <div>
-        <h3 class="head-footer">
+      <div class="head-footer">
+        <h3 class="title-footer">
           HACK YOUR FUTURE (PART OF OPEN KNOWLEDGE BELGIUM)
         </h3>
         <p class="footer-address">
@@ -250,7 +246,9 @@
         <a href="mailto:contact@hackyourfuture.be" class="footer-address"
           >contact@hackyourfuture.be
         </a>
+
         <!--social media  links-->
+
         <div class="social-media">
           <a
             href="https://www.facebook.com/HackYFutureBE/"
@@ -290,6 +288,7 @@
         </div>
       </div>
     </footer>
+
     <!-- footer end by kiishi -->
   </body>
 </html>
