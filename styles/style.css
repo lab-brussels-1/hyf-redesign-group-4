@@ -399,7 +399,7 @@ textarea {
   transition: all 0.3s ease 0s;
   transform: none;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 53px;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.08) 0.02px 0.03px 53px;
   padding: 50px;
 }
 
@@ -440,7 +440,6 @@ textarea {
 .description {
   font-size: 18px;
   line-height: 140%;
-  margin-bottom: 0px;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   color: rgb(28, 34, 148);
