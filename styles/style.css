@@ -359,7 +359,7 @@ textarea {
   display: flex;
   flex-direction: column;
   -moz-box-align: center;
-  align-items:center;
+  align-items: center;
 }
 
 .success-stories {
