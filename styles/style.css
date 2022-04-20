@@ -359,7 +359,7 @@ textarea {
   display: flex;
   flex-direction: column;
   -moz-box-align: center;
-  align-items: center;
+  align-items:center;
 }
 
 .success-stories {
@@ -375,7 +375,7 @@ textarea {
 }
 
 .box {
-  width: 50%;
+  width: 70%;
   min-height: 500px;
   position: relative;
   box-sizing: border-box;
@@ -383,14 +383,14 @@ textarea {
 
 .flex {
   position: absolute;
-  width: 300%;
+  width: 200%;
   box-sizing: border-box;
   display: flex;
   transform: translateX(0%);
   transition: transform 0.3s ease 0s;
 }
 
-.card {
+.carda {
   width: 100%;
   max-width: 100%;
   min-height: 500px;
