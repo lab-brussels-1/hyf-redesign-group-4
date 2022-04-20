@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
+/* ------------ universal css ------ */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
+
+/* ------- general css ------  */
 
 body {
   background-color: #ecf0f3;
@@ -17,9 +20,42 @@ a {
   color: rgb(255, 193, 7);
 }
 
-/* ---- header ---- */
+h2 {
+  color: rgba(6, 65, 174, 0.661);
+  font-size: 2rem;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
 
-/* --- navbar --  */
+h3 {
+  padding-bottom: 10px;
+  color: rgb(255, 193, 7);
+}
+
+.box-shadow {
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+}
+
+.box-inset {
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
+    inset 3px 3px 5px #ceced1;
+}
+
+.btn {
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 6px;
+  margin-left: 5px;
+  color: #31344b;
+  transition: 0.5s;
+}
+
+/* ------------ header ----------- */
+
+/* ------------ navbar ---------- --  */
 
 .navbar {
   max-width: 80%;
@@ -28,7 +64,6 @@ a {
   justify-content: space-between;
   text-align: center;
   background-color: #ecf0f3;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
 }
 
 .logo {
@@ -45,14 +80,13 @@ a {
 
 .nav-list ul li {
   display: inline-flex;
-  font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 400;
   padding: 10px 12px;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
   position: relative;
   transition: all 0.3s ease;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
 }
 
 .nav-list ul li a {
@@ -78,56 +112,12 @@ a {
 }
 
 .menu {
-  font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   text-transform: uppercase;
   padding: 20px;
   cursor: pointer;
   display: none;
-}
-
-/* ------- media query for navigation ----------  */
-
-@media (max-width: 1063px) {
-  .menu {
-    display: initial;
-    background: none;
-    box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
-  }
-
-  .menu:hover {
-    box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px #ceced1;
-    color: green;
-  }
-
-  .navbar {
-    position: relative;
-  }
-
-  .nav-list {
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    right: 0%;
-    justify-content: center;
-    background: #ecf0f3;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    display: none;
-    padding: auto;
-  }
-
-  .nav-list ul li {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    font-size: 1rem;
-    box-shadow: none;
-  }
-
-  #menu-bar:checked ~ .nav-list {
-    display: initial;
-  }
 }
 
 /* ---- title ----- */
@@ -137,40 +127,21 @@ a {
   margin: auto;
   text-align: center;
   padding: 6rem;
-  box-shadow: -5px -5px 9px #fff, 5px 5px 10px #ceced1;
 }
 
 .title-name {
   padding: 0%;
-  font-family: "Poppins", sans-serif;
   color: rgba(6, 65, 174, 0.661);
   font-weight: 500;
   font-size: 4rem;
   text-transform: uppercase;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
 }
 
 .slogan {
-  font-family: "Poppins", sans-serif;
   font-size: 2.3rem;
-  color: #31344b;
+  color: rgb(255, 193, 7);
   font-weight: 300;
   margin: 10px auto 40px auto;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
-    inset 3px 3px 5px #ceced1;
-}
-
-.btn {
-  background: none;
-  border: 1px solid white;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  padding: 8px;
-  margin-left: 5px;
-  color: #31344b;
-  transition: 0.5s;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
-    inset 3px 3px 5px #ceced1;
 }
 
 .btn-apply {
@@ -191,126 +162,80 @@ a {
 
 /* ---- header css end ----  */
 
-/* ---- contact and form by Haneefa --- */
+/* Info */
 
-.form-map {
-  width: 90%;
-  display: flex;
+.info-section {
+  max-width: 90%;
   margin: auto;
-  border-radius: 5px;
-}
-
-.form-info {
-  background-color: #33a9beb0;
-  color: #fff;
-  margin-top: 30px;
-  padding: 15px;
-  width: 500px;
+  margin-top: 10px;
+  display: flex;
   height: auto;
-  border-radius: 8px;
 }
 
-.form-info h2 {
-  color: rgba(6, 65, 174, 0.661);
+.info-text {
+  padding: 20px;
+  width: 50%;
+}
+
+.info-h2 {
+  padding-bottom: 2rem;
+}
+
+.info-text p {
+  margin-bottom: 30px;
+}
+
+b {
+  color: rgb(255, 193, 7);
+}
+
+.image-info {
+  width: 50%;
+}
+
+.image-info img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* our impact */
+
+.impact {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  height: auto;
+}
+
+.impact-para {
+  justify-content: center;
+  align-items: center;
+}
+
+.impact-para p {
   text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
-.form-info p {
-  padding-bottom: 10px;
+.impact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 10px;
 }
 
-label {
-  font-size: 1.2rem;
+.card-impact {
+  padding: 10px;
 }
-
-input {
-  width: 400px;
-  padding: 8px;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-textarea {
-  width: 400px;
-  margin-top: 10px;
-  padding: 7px;
-}
-
-.btn-submit {
-  background-color: rgb(221, 237, 249);
-  color: black;
-  cursor: pointer;
-  border: 1px solid rgb(93, 160, 235);
-  width: 80px;
-  transition: 0.3s;
-}
-
-.btn-submit:hover {
-  background-color: rgb(93, 160, 235);
-}
-
-.map {
-  margin-left: 2rem;
-}
-
-.map h2 {
-  text-transform: capitalize;
-  color: rgba(6, 65, 174, 0.661);
-  font-size: 2rem;
-  padding-bottom: 10px;
-}
-
-.map p {
-  font-size: 1.2rem;
-  padding-top: 20px;
-}
-
-/* ------- media query for form and map ----- */
-
-@media (max-width: 980px) {
-  .form-map {
-    display: block;
-    width: 500px;
-    margin-left: 20px;
-  }
-
-  .map iframe {
-    width: 400px;
-  }
-}
-
-@media (max-width: 778px) {
-  .form-map {
-    display: block;
-    border-radius: 5px;
-  }
-
-  .form-info {
-    margin-top: 30px;
-    padding: 15px;
-    width: 450px;
-    height: auto;
-  }
-
-  .map iframe {
-    width: 350px;
-  }
-
-  .card {
-    margin: 1px;
-  }
-}
-
-/* ---- contact and form by Haneefa end ---- */
 
 /* ----- our core values ---- */
 
 .our-core-values {
   width: 90%;
   margin: auto;
-  font-family: "Poppins", sans-serif;
   height: auto;
 }
 
@@ -320,22 +245,11 @@ textarea {
   padding: 10px;
 }
 
-.title-values h2 {
-  color: rgba(6, 65, 174, 0.661);
-  font-size: 2rem;
-}
-
 .card {
   color: #333;
   height: 100%;
   border-radius: 10px;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
   padding: 15px;
-}
-
-.card h3 {
-  padding-bottom: 10px;
-  color: rgb(255, 193, 7);
 }
 
 .grid {
@@ -345,6 +259,7 @@ textarea {
   height: 100%;
   align-content: space-between;
   justify-items: stretch;
+  padding: 20px;
 }
 
 .icon-size {
@@ -475,22 +390,19 @@ textarea {
 /* partner by kiishi */
 
 .partners {
-  text-align: center;
-  margin: 3rem;
-  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .title-partners {
-  color: rgba(6, 65, 174, 0.661);
   text-align: center;
-  font-size: 2.5rem;
+  margin-top: 20px;
 }
 
 .partnerimg {
-  box-shadow: -3px -3px 7px #fff, -3px -3px 5px #ceced1;
-  max-width: 100%;
-  margin: 3rem 1px;
-  padding-top: 20px;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .btn-partner {
@@ -503,11 +415,78 @@ textarea {
 
 /* partner end by kiishi */
 
+/* ---- contact and form by Haneefa --- */
+
+.form-map {
+  width: 90%;
+  margin: auto;
+}
+
+.location {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-info {
+  background-color: #ecf0f3;
+  padding: 20px;
+  width: 550px;
+  border-radius: 8px;
+}
+
+.form-info p {
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  padding: 3px;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+}
+
+input,
+textarea {
+  width: 450px;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
+    inset 3px 3px 5px #ceced1;
+}
+
+.btn-submit {
+  background-color: rgb(221, 237, 249);
+  color: black;
+  cursor: pointer;
+  border: 1px solid rgb(93, 160, 235);
+  width: 80px;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: rgb(93, 160, 235);
+}
+
+.map iframe {
+  border: none;
+  margin: 5px;
+  width: 620px;
+}
+
+.map p {
+  padding: 20px;
+}
+
+/* ---- contact and form by Haneefa end ---- */
+
 /* footer by kiishi */
 
 .footer {
   margin-top: 2rem;
-  box-shadow: 3px 3px 7px #fff, -3px -3px 5px #ceced1;
 }
 
 .head-footer {
@@ -550,93 +529,218 @@ textarea {
 
 /* partner end by kiishi */
 
-/* Info */
+/* ------- media query ----------  */
 
-.info-section {
-  background-color: rgb(2, 2, 2);
-  color: white;
-}
+/* --------- navigation ---------- */
 
-.container-info {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 15px 15px 15px;
-  font-size: 24px;
-}
-
-.container-info > div {
-  flex: 1;
-}
-
-.info-text {
-  width: 50%;
-}
-
-.image-info {
-  margin-left: auto;
-  width: 100%;
-}
-
-b {
-  color: rgb(255, 193, 7);
-}
-
-.info-h1 {
-  padding: 30px 20px 20px 50px;
-}
-
-.info-h3 {
-  padding: 10px;
-}
-
-/* our impact */
-
-.impact-section {
-  color: rgb(253, 253, 253);
-  background-color: rgba(14, 13, 13, 0.973);
-}
-
-.impact-container {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
-.impact-h2 {
-  color: rgb(255, 193, 7);
-  padding-bottom: 30px;
-}
-
-.impact-para {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  padding: 50px;
-  font-size: 20px;
-}
-
-.impact-card-h3 {
-  padding-bottom: 10px;
-}
-
-.card-impact {
-  background-color: rgb(255, 193, 7);
-  color: #333;
-  height: 100%;
-  border-radius: 10px;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
-  padding: 15px 15px 15px 15px;
-}
-
-/* Responsiveness info and impact */
-
-@media (max-width: 500px) {
-  .impact-container {
-    flex-direction: column;
+@media (max-width: 1024px) {
+  .menu {
+    display: initial;
+    background: none;
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
   }
 
-  .container-info {
-    flex-direction: column;
+  .menu:hover {
+    box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px #ceced1;
+    color: green;
+  }
+
+  .navbar {
+    position: relative;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    justify-content: center;
+    background: #ecf0f3;
+    display: none;
+    padding: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-list ul li {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: none;
+  }
+
+  #menu-bar:checked ~ .nav-list {
+    display: initial;
+  }
+
+  .location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-info {
+    width: 350px;
+  }
+
+  input,
+  textarea {
+    width: 300px;
   }
 }
+
+@media (max-width: 778px) {
+  .info-section {
+    display: block;
+    height: auto;
+  }
+
+  .info-text {
+    width: 100%;
+  }
+
+  .image-info img {
+    margin-left: 11rem;
+    width: 100%;
+  }
+
+  .location {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .form-info {
+    width: 500px;
+    margin-left: 6rem;
+  }
+
+  input,
+  textarea {
+    width: 300px;
+  }
+
+  .card {
+    margin: 1px;
+  }
+
+  .map {
+    width: 500px;
+    margin-left: 6rem;
+    margin-top: 1rem;
+  }
+
+  .map iframe {
+    width: 480px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+  }
+
+  .title-name {
+    font-size: 2rem;
+  }
+
+  .slogan {
+    font-size: 1rem;
+  }
+
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .info-text {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .info-h2 {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .image-info img {
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .location {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .form-info {
+    width: 370px;
+    margin-left: 0.7rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+
+  a {
+    font-size: 0.5rem;
+  }
+
+  label {
+    font-size: 0.7rem;
+  }
+
+  input {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 2px;
+  }
+
+  .card {
+    margin: 1px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+
+  .map {
+    width: 370px;
+    margin-right: 3rem;
+  }
+
+  .map iframe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .location {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .form-info {
+    width: 330px;
+  }
+
+  .map {
+    width: 320px;
+    margin-left: -1rem;
+  }
+}
+
+/* ------- media query for form and map ----- */
