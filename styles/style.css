@@ -400,6 +400,7 @@ textarea {
   transform: none;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 53px;
+  padding: 50px ;
 }
 
 .left {
@@ -432,7 +433,6 @@ textarea {
   justify-content: flex-start;
   max-height: none;
   max-width: none;
-  padding: 0px;
   z-index: 0;
   position: static;
 }
@@ -441,7 +441,6 @@ textarea {
   font-size: 18px;
   line-height: 140%;
   margin-bottom: 0px;
-  text-transform: none;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   color: rgb(28, 34, 148);
@@ -455,7 +454,6 @@ textarea {
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0px;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 600;
@@ -469,7 +467,6 @@ textarea {
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0px;
   font-weight: 300;
 }
 
