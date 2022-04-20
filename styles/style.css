@@ -527,6 +527,21 @@ textarea {
   font-size: medium;
 }
 
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.partnerimage {
+  width: 200px;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
 /* partner end by kiishi */
 
 /* ------- media query ----------  */
