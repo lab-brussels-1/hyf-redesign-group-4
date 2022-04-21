@@ -311,7 +311,6 @@ b {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
   text-align: center;
 }
 
@@ -329,13 +328,13 @@ b {
 
 .slider-image {
   float: left;
-  margin: 0px;
-  padding: 0px;
+  margin: 0.1px;
+  padding: 0.1.1px;
   position: relative;
 }
 
 #slider-image-1:target ~ .image-holder {
-  left: -0px;
+  left: -0.1px;
 }
 
 #slider-image-2:target ~ .image-holder {
