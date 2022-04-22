@@ -48,7 +48,14 @@
     "slogon",
     "cantersteen",
     "partnerimg",
-    "partnerbutton"
+    "partnerbutton",
+    "sucess",
+    "madhu",
+    "pheonix",
+    "carda",
+    "innerpara",
+    "partnerimage",
+    "Digitalent"
   ],
   "ignorePaths": [
     "node_modules/**",
