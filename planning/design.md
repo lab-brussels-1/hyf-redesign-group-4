@@ -22,4 +22,4 @@
 
 ## FAQ page
 
-![FAQ](/planning/assets/faqimage.png)
+![FAQ](/planning/assets/faq.png)
