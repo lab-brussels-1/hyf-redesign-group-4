@@ -759,3 +759,76 @@ textarea {
 }
 
 /* ------- media query for form and map ----- */
+
+/* Css for About Page */
+
+.title-fsize {
+  font-size: 2rem !important;
+}
+
+.box-margin {
+  margin-top: 30px;
+}
+
+.impact1-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 20px;
+  margin: 50px;
+}
+
+.figure-align {
+  text-align: center;
+  padding: 5px;
+}
+
+.content-value {
+  width: 70%;
+  column-gap: 80px;
+  margin-left: 15%;
+}
+
+.content-column {
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.figure {
+  border: none;
+  margin: 5px;
+  width: 250%;
+  height: 100%;
+}
+
+.history {
+  width: 470px;
+  margin: 0;
+  text-align: left;
+  line-height: 150%;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 20px;
+  margin: 50px;
+}
+
+.image-crop {
+  border-radius: 50%;
+}
+
+.team {
+  color: rgb(255, 193, 7);
+  font-weight: bold;
+}
+
+/* Css for About Page end */
