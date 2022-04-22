@@ -167,18 +167,18 @@ h3 {
 .info-section {
   max-width: 90%;
   margin: auto;
-  margin-top: 10px;
+}
+
+.info {
   display: flex;
-  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
 }
 
 .info-text {
-  padding: 20px;
-  width: 50%;
-}
-
-.info-h2 {
-  padding-bottom: 2rem;
+  padding: 0.1rem 2rem;
+  width: 100%;
 }
 
 .info-text p {
@@ -190,11 +190,10 @@ b {
 }
 
 .image-info {
-  width: 50%;
+  width: 100%;
 }
 
 .image-info img {
-  margin-top: 10px;
   width: 100%;
 }
 
@@ -263,15 +262,16 @@ b {
 }
 
 .icon-size {
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 /* ----- Responsive for our core values ---- */
 
 /* ----- Our Sucess Stories ---- */
 
-.outside-flex {
-  width: 100%;
+.story-outsideflex {
+  max-width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   -moz-box-align: center;
@@ -283,30 +283,30 @@ b {
   line-height: 140%;
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
   font-weight: 700;
-  color: rgb(28, 34, 148);
+  color: rgba(6, 65, 174, 0.661);
   text-align: left;
   max-width: none;
 }
 
-.box {
-  width: 70%;
+.story-box {
+  width: 80%;
   min-height: 500px;
   position: relative;
   box-sizing: border-box;
 }
 
-.flex {
+.story-flex {
   position: absolute;
-  width: 200%;
+  width: 100%;
+  height: 80%;
   box-sizing: border-box;
   display: flex;
   transform: translateX(0%);
   transition: transform 0.3s ease 0s;
 }
 
-.carda {
+.stories-card {
   width: 100%;
   max-width: 100%;
   min-height: 500px;
@@ -317,20 +317,6 @@ b {
   text-align: center;
   box-shadow: rgba(0.1, 0.1, 0.1, 0.08) 0.02px 0.03px 53px;
   padding: 50px;
-}
-
-.left {
-  position: absolute;
-  left: -50px;
-  right: auto;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 100;
-  background-color: transparent;
-  color: rgb(74, 80, 187);
-  border: medium none;
-  font-size: 32px;
-  cursor: pointer;
 }
 
 .teddy {
@@ -353,35 +339,30 @@ b {
   position: static;
 }
 
-.description {
+.stories-description {
   font-size: 18px;
   line-height: 140%;
-  font-family: "Work Sans", sans-serif;
   font-weight: 700;
-  color: rgb(28, 34, 148);
+  color: rgb(255, 193, 7);
   text-align: center;
   max-width: none;
 }
 
-.paragraph {
+.stories-paragraph {
   text-align: center;
   max-width: none;
   line-height: 160%;
   font-size: 16px;
-  font-family: "Space Mono", monospace;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 600;
-  color: #4a50bb;
 }
 
-.innerpara {
-  color: rgb(52, 13, 76);
+.stories-innerparagraph {
   text-align: center;
   max-width: none;
   line-height: 160%;
-  font-size: 16px;
-  font-family: "Space Mono", monospace;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -392,17 +373,27 @@ b {
 .partners {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 20px;
 }
 
 .title-partners {
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 2rem;
+}
+
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: 1rem;
 }
 
 .partnerimg {
   width: 100%;
-  margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .btn-partner {
@@ -486,7 +477,7 @@ textarea {
 /* footer by kiishi */
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .head-footer {
@@ -527,19 +518,60 @@ textarea {
   font-size: medium;
 }
 
-.container-grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-  box-sizing: border-box;
-  background-color: white;
-}
-
 .partnerimage {
   width: 200px;
   vertical-align: baseline;
   box-sizing: border-box;
+}
+
+/* -------- support us ---------  */
+
+.support-info {
+  width: 90%;
+  margin: auto;
+}
+
+/* donation section  */
+
+.donation {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.select-label {
+  padding: 5px;
+}
+
+.amount {
+  margin-top: 20px;
+}
+
+.amount ul li {
+  display: inline-flex;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.amount li:hover {
+  background-color: #4a50bb;
+  color: #ecf0f3;
+}
+
+.donation-input {
+  width: 20px;
+  box-shadow: none;
+  margin-bottom: 2rem;
+}
+
+.btn-donation {
+  margin: 20px;
+  border: 1px solid rgb(255, 193, 7);
+}
+
+.btn-donation:hover {
+  background-color: rgb(255, 193, 7);
 }
 
 /* partner end by kiishi */
@@ -594,28 +626,31 @@ textarea {
   }
 
   .form-info {
-    width: 350px;
+    width: 400px;
+  }
+
+  .map {
+    width: 400px;
+    margin-left: 3rem;
+  }
+
+  .map iframe {
+    width: 390px;
   }
 
   input,
   textarea {
-    width: 300px;
+    width: 350px;
   }
 }
 
-@media (max-width: 778px) {
-  .info-section {
+@media (max-width: 768px) {
+  .info {
     display: block;
-    height: auto;
   }
 
   .info-text {
-    width: 100%;
-  }
-
-  .image-info img {
-    margin-left: 11rem;
-    width: 100%;
+    margin-bottom: 2rem;
   }
 
   .location {
@@ -624,13 +659,12 @@ textarea {
   }
 
   .form-info {
-    width: 500px;
-    margin-left: 6rem;
+    width: 650px;
   }
 
   input,
   textarea {
-    width: 300px;
+    width: 550px;
   }
 
   .card {
@@ -638,13 +672,13 @@ textarea {
   }
 
   .map {
-    width: 500px;
-    margin-left: 6rem;
+    width: 650px;
     margin-top: 1rem;
+    margin-left: 0.1rem;
   }
 
   .map iframe {
-    width: 480px;
+    width: 640px;
   }
 }
 
@@ -664,35 +698,18 @@ textarea {
     font-size: 1rem;
   }
 
-  .info-section {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .info-text {
-    padding: 20px;
-    width: 100%;
-  }
-
-  .info-h2 {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-
-  .image-info img {
-    width: 100%;
-    margin-left: 6rem;
-  }
-
-  .location {
-    display: grid;
-    grid-template-columns: 1fr;
+  .container-grid {
+    display: block;
   }
 
   .form-info {
     width: 370px;
     margin-left: 0.7rem;
+  }
+
+  input,
+  textarea {
+    width: 300px;
   }
 
   h2 {
@@ -732,17 +749,25 @@ textarea {
     width: 20px;
   }
 
+  .location {
+    margin-left: -1.5rem;
+  }
+
   .map {
     width: 370px;
-    margin-right: 3rem;
+    margin-left: 0.9rem;
   }
 
   .map iframe {
-    width: 300px;
+    width: 355px;
+  }
+
+  .amount li {
+    padding: 1px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
   .location {
     display: grid;
     grid-template-columns: 1fr;
@@ -753,8 +778,12 @@ textarea {
   }
 
   .map {
-    width: 320px;
-    margin-left: -1rem;
+    width: 325px;
+    margin-left: 0.9rem;
+  }
+
+  .map iframe {
+    width: 315px;
   }
 }
 
@@ -871,3 +900,76 @@ textarea {
     margin: 0 5px;
   }
 }
+
+/* Css for About Page */
+
+.title-fsize {
+  font-size: 2rem !important;
+}
+
+.box-margin {
+  margin-top: 30px;
+}
+
+.impact1-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 20px;
+  margin: 50px;
+}
+
+.figure-align {
+  text-align: center;
+  padding: 5px;
+}
+
+.content-value {
+  width: 70%;
+  column-gap: 80px;
+  margin-left: 15%;
+}
+
+.content-column {
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.figure {
+  border: none;
+  margin: 5px;
+  width: 250%;
+  height: 100%;
+}
+
+.history {
+  width: 470px;
+  margin: 0;
+  text-align: left;
+  line-height: 150%;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 20px;
+  margin: 50px;
+}
+
+.image-crop {
+  border-radius: 50%;
+}
+
+.team {
+  color: rgb(255, 193, 7);
+  font-weight: bold;
+}
+
+/* Css for About Page end */
