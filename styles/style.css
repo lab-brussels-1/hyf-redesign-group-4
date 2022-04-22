@@ -856,3 +856,18 @@ textarea {
 }
 
 /* Css for About Page end */
+
+/* FAQ page title  by kiishi */
+
+.faq-title {
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-title-content {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
