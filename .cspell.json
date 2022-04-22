@@ -107,7 +107,6 @@
     "mgig",
     "jwrg",
     "Halasz"
-
   ],
   "ignorePaths": [
     "node_modules/**",
