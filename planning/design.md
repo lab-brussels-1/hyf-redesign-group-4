@@ -19,3 +19,7 @@
 ## Volunteer page
 
 ![Volunteer](assets/volunteersubpages.png)
+
+## FAQ page
+
+![FAQ](planning/assets/faq.jpeg)
