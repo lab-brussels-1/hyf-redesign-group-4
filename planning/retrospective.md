@@ -9,10 +9,10 @@
 ## Continue Doing
 
 - Follow the deadline to complete the tasks
-- Communication with the team in every change that will be performed in th
+- Communication with the team in every change that will be performed in the
   project.
 - Discussing more about the tasks.
-- Continuo practicing HTML and CSS
+- Continuo practicing HTML and CSS.
 - Practice more about media queries.
 
 ## Start Doing
