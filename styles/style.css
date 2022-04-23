@@ -1120,7 +1120,7 @@ textarea {
   text-align: center;
 }
 
-/* FAQ page title  by kiishi */
+/* FAQ page  by kiishi */
 
 .faq-title {
   padding: 30px;
@@ -1133,4 +1133,26 @@ textarea {
 .faq-title-content {
   font-family: "Space Mono", monospace;
   text-align: center;
+}
+
+.faqcontent {
+  font-family: "Space mono", monospace;
+  padding: 30px;
+  margin: 30px;
+}
+
+.faqquestion {
+  background-color: white;
+  font-family: "Space mono", monospace;
+  padding: 20px;
+}
+
+.faqanswer {
+  font-family: "Space mono", monospace;
+  padding: 40px;
+}
+
+.faqsearchbar {
+  padding: 30px;
+  margin-left: 30px;
 }
