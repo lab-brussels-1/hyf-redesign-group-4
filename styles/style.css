@@ -1297,3 +1297,52 @@ textarea {
 .program-padding-top {
   padding-top: 50px;
 }
+
+/* Team page  */
+
+.Our-team {
+  width: 90%;
+  margin: auto;
+}
+
+.title-team {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgba(6, 65, 174, 0.661);
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.member-cards {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.member-info {
+  padding: 1rem;
+}
+
+.mamber-name {
+  color: rgb(255, 193, 7);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.member-profession {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.member-img {
+  padding-bottom: 1rem;
+  width: 12rem;
+  border-radius: 4rem;
+}
+
+/* team page css end  */
