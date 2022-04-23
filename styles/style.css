@@ -1171,6 +1171,33 @@ textarea {
   text-align: center;
 }
 
+.faqcontent {
+  padding: 50px;
+  font-family: "Space mono", monospace;
+}
+
+.faqquestion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: "Space mono", monospace;
+  font-size: 15px;
+}
+
+.faqanswer {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  font-family: "Space mono", monospace;
+}
+
 .coach-anthony {
   font-size: 20px;
   line-height: 140%;
