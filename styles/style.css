@@ -1285,3 +1285,11 @@ textarea {
 .program-apply-background {
   background-color: #d8d8e270;
 }
+
+.program-padding-bottom {
+  padding-bottom: 100px;
+}
+
+.program-padding-top {
+  padding-top: 50px;
+}
