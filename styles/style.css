@@ -732,7 +732,7 @@ textarea {
   .map iframe {
     width: 315px;
   }
-  
+
   /* ------- media query for form and map ----- */
 
   .program-grid-1 {
@@ -741,8 +741,6 @@ textarea {
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-
-
 
 .Digitalent {
   background-color: rgba(216, 233, 245, 0.842);
@@ -1198,7 +1196,9 @@ textarea {
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
+}
 /* Our Program Page */
+
 .program-flex {
   flex-direction: row;
   align-content: space-between;
