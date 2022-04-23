@@ -58,7 +58,7 @@ h3 {
 /* ------------ navbar ---------- --  */
 
 .navbar {
-  max-width: 90%;
+  max-width: 80%;
   margin: 10px auto;
   display: flex;
   justify-content: space-between;
