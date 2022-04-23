@@ -1205,6 +1205,10 @@ textarea {
   font-size: 15px;
 }
 
+.faqsearchbar {
+  padding: 20px;
+}
+
 .faqanswer {
   padding: 0 18px;
   max-height: 0;
