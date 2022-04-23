@@ -865,6 +865,9 @@ textarea {
 }
 
 /* Css for About Page */
+.overflow {
+  overflow-x: hidden;
+}
 
 .title-fsize {
   font-size: 2rem !important;
