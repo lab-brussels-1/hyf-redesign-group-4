@@ -121,7 +121,6 @@
     "Elías",
     "López",
     "industrymore"
-
   ],
   "ignorePaths": [
     "node_modules/**",
