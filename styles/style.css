@@ -497,6 +497,23 @@ textarea {
   background-color: rgb(255, 193, 7);
 }
 
+/* program  */
+
+.program-grid-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-text-center {
+  padding: 3rem;
+}
+
+.li-style {
+  width: 5rem;
+}
+
 /* partner end by kiishi */
 
 /* ------- media query ----------  */
@@ -571,6 +588,12 @@ textarea {
   textarea {
     width: 350px;
   }
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -630,8 +653,8 @@ textarea {
 
   .program-grid-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
