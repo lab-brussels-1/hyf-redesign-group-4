@@ -930,54 +930,35 @@ textarea {
 
 .volunteer-outsideflex {
   display: flex;
-  flex: 1 0 auto;
   flex-direction: column;
   margin: auto;
-  -moz-box-flex: 1;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .volunteer-nestedflex {
   display: flex;
-  -moz-box-pack: center;
   justify-content: center;
   width: 100%;
   padding: 50px 20px;
   position: relative;
-  box-shadow: none;
-  z-index: 1;
-  flex: 0 0 auto;
 }
 
 .volunteer-insideflex {
-  -moz-box-align: center;
   align-items: center;
-  background: transparent none repeat scroll 0% 0%;
-  box-shadow: none;
-  box-sizing: border-box;
+  background: transparent;
   display: flex;
-  flex: 0 1 100%;
   flex-direction: column;
-  -moz-box-flex: 0;
   height: auto;
-  -moz-box-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 10px;
-  max-height: none;
-  max-width: none;
-  padding: 0.1px;
   width: 100%;
-  z-index: 0.1;
   position: static;
 }
 
 .volunteer-innerflex {
   display: flex;
   flex-direction: column;
-  -moz-box-pack: center;
   justify-content: center;
-  -moz-box-align: center;
   align-items: center;
   width: 100%;
   max-width: 1280px;
@@ -993,7 +974,6 @@ textarea {
   font-weight: 700;
   color: rgba(6, 65, 174, 0.661);
   text-align: left;
-  max-width: none;
 }
 
 .volunteer-paragraph {
@@ -1001,41 +981,22 @@ textarea {
   max-width: 550px;
   line-height: 160%;
   font-size: 16px;
-  white-space: pre-wrap;
-  word-break: break-word;
   font-weight: 300;
 }
 
-.volunteer-section {
-  display: flex;
-  -moz-box-pack: center;
-  justify-content: center;
-  width: 100%;
-  padding: 50px 20px;
-  position: relative;
-  box-shadow: none;
-  background: black;
-  z-index: 1;
-  flex: auto;
-}
-
 .coach-flex {
-  -moz-box-align: stretch;
   align-items: stretch;
-  background: transparent none repeat scroll 0% 0%;
+  background: transparent;
   box-sizing: border-box;
   display: flex;
-  flex: 0 1 100%;
   flex-direction: row;
   -moz-box-flex: 0;
   height: auto;
-  -moz-box-pack: center;
   justify-content: center;
   margin: 20px;
   max-height: none;
   max-width: none;
   width: 100%;
-  z-index: 0;
   position: static;
 }
 
@@ -1059,54 +1020,37 @@ textarea {
 
 .hyf-outerflex {
   display: flex;
-  -moz-box-pack: center;
   justify-content: center;
   width: 100%;
-  padding: 50px 20px;
+  padding: 50px;
   position: relative;
-  box-shadow: none;
-  background: transparent none repeat scroll 0% 0%;
-  z-index: 1;
-  flex: auto;
+  background: transparent;
 }
 
 .hyf-innerflex {
   display: flex;
   flex-direction: column;
-  -moz-box-pack: center;
   justify-content: center;
-  -moz-box-align: center;
   align-items: center;
   width: 100%;
-  max-width: 1280px;
-  padding: 10px;
+  padding: 50px;
   margin: auto;
 }
 
 .hyf-nestedflex {
   display: flex;
-  -moz-box-align: center;
   align-items: center;
 }
 
 .hyf-coreflex {
-  -moz-box-align: stretch;
   align-items: stretch;
   background: transparent;
-  box-shadow: none;
   box-sizing: border-box;
   display: flex;
-  flex: 0 1 60%;
   flex-direction: row;
-  -moz-box-flex: 0;
   height: auto;
-  -moz-box-pack: start;
   justify-content: flex-start;
-  max-height: none;
-  min-width: 400px;
-  max-width: none;
   width: 50%;
-  z-index: 0;
   position: relative;
 }
 
@@ -1123,7 +1067,6 @@ textarea {
 
 .hyf-right {
   display: flex;
-  -moz-box-flex: 1;
   flex-grow: 1;
   flex-wrap: wrap;
 }
@@ -1131,45 +1074,37 @@ textarea {
 .hyfright-innerflex {
   display: flex;
   width: 50%;
-  padding: 20px;
 }
 
 .image-first {
-  width: 100;
-  height: 100;
+  width: 100%;
+  height: 50px;
   object-fit: fill;
 }
 
 .hyf-first {
   text-align: left;
-  max-width: none;
   line-height: 100%;
   font-size: 16px;
   font-weight: 200;
 }
 
 .coach-image {
-  display: flex;
   width: 50%;
-  min-width: 50%;
-  order: 1;
+  padding: 50px 50px;
 }
 
 .image-two {
-  width: 50%;
-  height: 50%;
-  object-fit: fill;
+  width: 70%;
+  height: 100%;
 }
 
 .coach-jhon {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 150%;
-  margin-bottom: 10px;
-  text-transform: none;
-  font-weight: 100;
+  font-weight: 300;
   color: rgb(28, 34, 148);
   text-align: center;
-  max-width: 50%;
 }
 
 /* FAQ page title  by kiishi */
@@ -1185,115 +1120,4 @@ textarea {
 .faq-title-content {
   font-family: "Space Mono", monospace;
   text-align: center;
-}
-
-.faqcontent {
-  padding: 50px;
-  font-family: "Space mono", monospace;
-}
-
-.faqquestion {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  padding: 20px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-family: "Space mono", monospace;
-  font-size: 15px;
-}
-
-.faqsearchbar {
-  padding: 20px;
-}
-
-.faqanswer {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-  font-family: "Space mono", monospace;
-}
-
-.coach-anthony {
-  font-size: 20px;
-  line-height: 140%;
-  margin-bottom: 20px;
-  text-transform: none;
-  font-weight: 700;
-  color: rgb(28, 34, 148);
-  text-align: left;
-  max-width: none;
-}
-
-/* Our Program Page */
-
-.program-flex {
-  flex-direction: row;
-  align-content: space-between;
-  padding: 5px;
-}
-
-.pro-image1 {
-  max-width: 100%;
-}
-
-.program-title {
-  max-width: 50%;
-}
-
-.program-text {
-  padding: 20px 20px 20px 20px;
-  margin: 20px 20px 20px 20px;
-}
-
-.text-decoration {
-  text-decoration: underline;
-  color: rgb(255, 193, 7);
-}
-
-.program-apply {
-  padding-top: 50px;
-}
-
-.program-padding {
-  padding: 10px 10px 10px 10px;
-}
-
-.ul-style {
-  list-style-type: none;
-}
-
-.li-style {
-  object-fit: contain;
-}
-
-.program-grid-1 {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.program-text-end {
-  text-align: end;
-}
-
-.program-text-center {
-  text-align: center;
-}
-
-.program-apply-background {
-  background-color: #d8d8e270;
-}
-
-.program-padding-bottom {
-  padding-bottom: 100px;
-}
-
-.program-padding-top {
-  padding-top: 50px;
 }
