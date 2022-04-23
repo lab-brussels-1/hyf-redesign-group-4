@@ -588,6 +588,18 @@ textarea {
     align-items: center;
   }
 
+  .volunteer-outsideflex {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hyf-outerflex {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
   .location {
     display: grid;
     grid-template-columns: 1fr;
@@ -990,7 +1002,6 @@ textarea {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  -moz-box-flex: 0;
   height: auto;
   justify-content: center;
   margin: 20px;
@@ -1090,8 +1101,10 @@ textarea {
 }
 
 .coach-image {
-  width: 50%;
+  width: 30%;
+  height: 20%;
   padding: 50px 50px;
+  align-items: center;
 }
 
 .image-two {
