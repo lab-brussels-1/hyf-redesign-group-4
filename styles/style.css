@@ -732,6 +732,8 @@ textarea {
   .map iframe {
     width: 315px;
   }
+  
+  /* ------- media query for form and map ----- */
 
   .program-grid-1 {
     display: grid;
@@ -740,7 +742,7 @@ textarea {
   }
 }
 
-/* ------- media query for form and map ----- */
+
 
 .Digitalent {
   background-color: rgba(216, 233, 245, 0.842);
