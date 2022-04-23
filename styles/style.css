@@ -615,6 +615,12 @@ textarea {
   .map iframe {
     width: 640px;
   }
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 425px) {
@@ -700,6 +706,12 @@ textarea {
   .amount li {
     padding: 1px;
   }
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 375px) {
@@ -720,11 +732,15 @@ textarea {
   .map iframe {
     width: 315px;
   }
+
+  /* ------- media query for form and map ----- */
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
-
-/* ------- media query for form and map ----- */
-
-/* ----- digitalents ------ */
 
 .Digitalent {
   background-color: rgba(216, 233, 245, 0.842);
@@ -1180,4 +1196,65 @@ textarea {
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
+}
+
+/* Our Program Page */
+
+.program-flex {
+  flex-direction: row;
+  align-content: space-between;
+  padding: 5px;
+}
+
+.pro-image1 {
+  max-width: 100%;
+}
+
+.program-title {
+  max-width: 50%;
+}
+
+.program-text {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.text-decoration {
+  text-decoration: underline;
+  color: rgb(255, 193, 7);
+}
+
+.program-apply {
+  padding-top: 50px;
+}
+
+.program-padding {
+  padding: 10px 10px 10px 10px;
+}
+
+.ul-style {
+  list-style-type: none;
+}
+
+.li-style {
+  object-fit: contain;
+}
+
+.program-grid-1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.program-text-end {
+  text-align: end;
+}
+
+.program-text-center {
+  text-align: center;
+}
+
+.program-apply-background {
+  background-color: #d8d8e270;
 }
