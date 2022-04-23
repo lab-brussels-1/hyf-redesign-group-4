@@ -1122,8 +1122,9 @@ textarea {
   }
 
   .image-first{
-    width: auto;
-    height: auto;
+    width: 100;
+    height: 100;
+    object-fit: fill;
   }
 
   .hyf-first{
@@ -1142,20 +1143,19 @@ textarea {
   }
 
   .image-two{
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
       object-fit: fill;
-      border-radius: 0px;
       }
   
-  .coach-anthony{
-  font-size: 20px;
+  .coach-jhon{
+  font-size: 18px;
   line-height: 150%;
   margin-bottom: 10px;
   text-transform: none;
-  font-weight: 200;
+  font-weight: 100;
   color: rgb(28, 34, 148);
-  text-align:left;
+  text-align:center;
   max-width: 50%;
 }
 /* FAQ page title  by kiishi */
