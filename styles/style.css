@@ -914,31 +914,23 @@ textarea {
 
 .volunteer-outsideflex {
   display: flex;
-  flex: 1 0 auto;
   flex-direction: column;
   margin: auto;
-  -moz-box-flex: 1;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .volunteer-nestedflex {
   display: flex;
-  -moz-box-pack: center;
   justify-content: center;
   width: 100%;
   padding: 50px 20px;
   position: relative;
-  box-shadow: none;
-  z-index: 1;
-  flex: 0 0 auto;
 }
 
 .volunteer-insideflex {
   -moz-box-align: center;
   align-items: center;
   background: transparent none repeat scroll 0% 0%;
-  box-shadow: none;
   box-sizing: border-box;
   display: flex;
   flex: 0 1 100%;
@@ -1048,7 +1040,6 @@ textarea {
   width: 100%;
   padding: 50px 20px;
   position: relative;
-  box-shadow: none;
   background: transparent none repeat scroll 0% 0%;
   z-index: 1;
   flex: auto;
