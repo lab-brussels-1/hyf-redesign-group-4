@@ -106,7 +106,21 @@
     "Tgwf",
     "mgig",
     "jwrg",
-    "Halasz"
+    "Halasz",
+    "insideflex",
+    "innerflex",
+    "outerflex",
+    "coreflex",
+    "nestedflex",
+    "hyfright",
+    "jhon",
+    "wireframe",
+    "shaikh",
+    "waghunde",
+    "akande",
+    "Elías",
+    "López",
+    "industrymore"
   ],
   "ignorePaths": [
     "node_modules/**",

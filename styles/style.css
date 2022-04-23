@@ -5,7 +5,6 @@
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -628,6 +627,12 @@ textarea {
   .map iframe {
     width: 640px;
   }
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 425px) {
@@ -713,6 +718,12 @@ textarea {
   .amount li {
     padding: 1px;
   }
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 375px) {
@@ -733,11 +744,15 @@ textarea {
   .map iframe {
     width: 315px;
   }
+
+  /* ------- media query for form and map ----- */
+
+  .program-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
-
-/* ------- media query for form and map ----- */
-
-/* ----- digitalents ------ */
 
 .Digitalent {
   background-color: rgba(216, 233, 245, 0.842);
@@ -861,7 +876,7 @@ textarea {
 
 .impact1-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 25px;
   height: 100%;
   align-content: space-between;
@@ -879,6 +894,7 @@ textarea {
   width: 70%;
   column-gap: 80px;
   margin-left: 15%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .content-column {
@@ -902,7 +918,7 @@ textarea {
 
 .team-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 25px;
   height: 100%;
   align-content: space-between;

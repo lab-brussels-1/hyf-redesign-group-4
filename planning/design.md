@@ -23,3 +23,7 @@
 ## FAQ page
 
 ![FAQ](/planning/assets/faq.png)
+
+## Digitalents page
+
+![Digitalents](../images/Digitalents-wireframe.png)
