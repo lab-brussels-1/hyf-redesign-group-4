@@ -615,6 +615,7 @@ textarea {
   .map iframe {
     width: 640px;
   }
+
   .program-grid-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1252,5 +1253,5 @@ textarea {
 }
 
 .program-apply-background {
-  background-color:#b9bbfc
+  background-color: #d8d8e270;
 }
