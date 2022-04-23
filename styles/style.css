@@ -976,7 +976,7 @@ textarea {
   flex-direction: row;
   -moz-box-flex: 0;
   height: auto;
-    justify-content: center;
+  justify-content: center;
   margin: 20px;
   max-height: none;
   max-width: none;
@@ -1081,7 +1081,6 @@ textarea {
 .image-two {
   width: 70%;
   height: 100%;
-
 }
 
 .coach-jhon {
@@ -1106,4 +1105,3 @@ textarea {
   font-family: "Space Mono", monospace;
   text-align: center;
 }
-
